@@ -229,7 +229,7 @@ const ProbePage = defineComponent(() => {
       ellipsis: true,
     },
     {
-      title: "所属服务",
+      title: "IP地址",
       dataIndex: "service",
       width: 140,
       ellipsis: true,
