@@ -1,0 +1,45 @@
+index,AS,orgName,regDate,RIR,isCert,isAuth,isAder,isConf
+1,10099,China Unicom (Hong Kong) Operations Limited,20000706,apnic,False,False,True,False
+2,4837,CHINA UNICOM Industrial Internet Backbone,20010917,apnic,True,True,True,False
+3,9929,CHINA UNICOM Industrial Internet Backbone,20000405,apnic,False,False,True,False
+4,4808,China Unicom,19960109,apnic,True,True,True,False
+5,17621,China Unicom,20010118,apnic,True,True,True,False
+6,136958,China Unicom,20170904,apnic,True,True,True,False
+7,17623,China Unicom,20010118,apnic,False,False,True,False
+8,17622,China Unicom,20010118,apnic,False,False,True,False
+9,138421,China Unicom,20181113,apnic,True,True,True,False
+10,133119,China Unicom,20131010,apnic,False,False,True,False
+11,140726,China Unicom,20200615,apnic,True,True,True,False
+12,135061,China Unicom,20160129,apnic,True,True,True,False
+13,17816,China Unicom,20010711,apnic,False,False,True,False
+14,134542,China Unicom,20150825,apnic,False,False,True,False
+15,140979,China Unicom,20200805,apnic,False,False,True,False
+16,10206,China Unicom,20000911,apnic,False,False,True,False
+17,140716,China Unicom,20200611,apnic,False,False,True,False
+18,19174,China Unicom (Americas) Operations Ltd,20070807,arin,False,False,True,False
+19,139007,China Unicom,20190424,apnic,False,False,True,False
+20,133118,China Unicom,20131010,apnic,False,False,True,False
+21,137539,China Unicom,20180328,apnic,False,False,True,False
+22,134543,China Unicom,20150825,apnic,False,False,True,False
+23,136959,China Unicom,20170904,apnic,False,False,True,False
+24,140717,China Unicom,20200612,apnic,False,False,True,False
+25,140707,China Unicom,20200608,apnic,False,False,True,False
+26,152120,China Unicom,20231124,apnic,False,False,True,False
+27,140886,China Unicom,20200702,apnic,False,False,True,False
+28,197407,CHINA UNICOM (EUROPE) OPERATIONS LIMITED,20101118,ripencc,False,False,True,False
+29,132281,China Unicom (Singapore) Operations Pte Ltd,20120523,apnic,False,False,True,False
+30,63837,China Unicom,20140903,apnic,False,False,False,False
+31,17789,CHINA UNICOM Industrial Internet Backbone,20010618,apnic,False,False,False,False
+32,140720,China Unicom,20200612,apnic,False,False,False,False
+33,17788,CHINA UNICOM Industrial Internet Backbone,20010618,apnic,False,False,False,False
+34,134821,China Unicom (Australia) Operations Pty Ltd,{},{},False,False,False,False
+35,132101,China Unicom (Hong Kong) Operations Limited,20111213,apnic,False,False,False,False
+36,17620,CHINA UNICOM Industrial Internet Backbone,20010118,apnic,False,False,False,False
+37,4659,CHINA UNICOM Industrial Internet Backbone,19960206,apnic,False,False,False,False
+38,63659,CHINA UNICOM CLOUD DATA COMPANY LIMITED Shanghai Branch,20140825,apnic,False,False,False,False
+39,4814,CHINA UNICOM Industrial Internet Backbone,19960109,apnic,False,False,False,False
+40,63836,China Unicom,20140903,apnic,False,False,False,False
+41,9800,CHINA UNICOM,20000110,apnic,False,False,False,False
+42,4799,CHINA UNICOM Industrial Internet Backbone,19960104,apnic,False,False,False,False
+43,17790,CHINA UNICOM Industrial Internet Backbone,20010618,apnic,False,False,False,False
+44,17791,CHINA UNICOM Industrial Internet Backbone,20010618,apnic,False,False,False,False

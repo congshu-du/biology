@@ -1,0 +1,4 @@
+index,pfx,orgName,orgAS,regDate,RIR,business,isCert,isAuth,isAder,isConf
+1,2408:8000::/22,China Unicom,4837,20110707,APNIC,ISP,False,False,True,False
+2,2408:8400::/22,China Unicom,4837,20120531,APNIC,ISP,False,False,True,False
+3,2408:8800::/21,China Unicom,4837,20120531,APNIC,ISP,False,False,True,False

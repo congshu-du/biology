@@ -1,0 +1,1149 @@
+index,pfx,orgName,AS,allocatedDate,RIR,type,isCert,isAuth,isAdve,isConf
+1,203.130.48.0/24,Meteverse Limited.,54994,N/A,apnic,ISP,False,False,True,False
+2,103.107.89.0/24,Beijing Jingdong Shangke Information Technology Co. Ltd.,137753,N/A,apnic,Business,False,False,True,False
+3,202.111.0.0/19,China Telecom Next Generation Carrier Network,4809,N/A,apnic,ISP,False,False,True,False
+4,202.111.32.0/19,China Telecom Next Generation Carrier Network,4809,N/A,apnic,ISP,False,False,True,False
+5,202.127.200.0/21,CNIC-CAS,7497,N/A,apnic,ISP,False,False,True,False
+6,211.88.0.0/17,RongHua Road No.11, Beijing Economy Technology Development Area, 100176,9306,N/A,apnic,Business,False,False,True,False
+7,211.88.128.0/17,RongHua Road No.11, Beijing Economy Technology Development Area, 100176,9306,N/A,apnic,Business,False,False,True,False
+8,211.88.112.0/21,RongHua Road No.11, Beijing Economy Technology Development Area, 100176,9306,N/A,apnic,Business,False,False,True,False
+9,211.165.0.0/16,BEIJING SHENZHOU GREATWALL COMMUNICATION,9389,N/A,apnic,ISP,False,False,True,False
+10,211.166.0.0/16,BEIJING SHENZHOU GREATWALL COMMUNICATION,9389,N/A,apnic,ISP,False,False,True,False
+11,211.166.8.0/21,BEIJING SHENZHOU GREATWALL COMMUNICATION,9389,N/A,apnic,ISP,False,False,True,False
+12,211.166.4.0/22,BEIJING SHENZHOU GREATWALL COMMUNICATION,9389,N/A,apnic,ISP,False,False,True,False
+13,211.166.17.0/24,BEIJING SHENZHOU GREATWALL COMMUNICATION,9389,N/A,apnic,ISP,False,False,True,False
+14,211.166.246.0/24,BEIJING SHENZHOU GREATWALL COMMUNICATION,9389,N/A,apnic,ISP,False,False,True,False
+15,211.166.247.0/24,BEIJING SHENZHOU GREATWALL COMMUNICATION,9389,N/A,apnic,ISP,False,False,True,False
+16,211.166.249.0/24,BEIJING SHENZHOU GREATWALL COMMUNICATION,9389,N/A,apnic,ISP,False,False,True,False
+17,211.166.250.0/24,BEIJING SHENZHOU GREATWALL COMMUNICATION,9389,N/A,apnic,ISP,False,False,True,False
+18,61.232.0.0/16,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+19,61.233.0.0/16,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+20,61.234.0.0/16,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+21,61.235.0.0/16,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+22,61.237.0.0/16,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+23,211.98.0.0/16,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+24,61.237.0.0/17,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+25,61.237.128.0/17,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+26,61.232.0.0/19,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+27,61.232.32.0/19,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+28,61.232.64.0/19,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+29,61.232.96.0/19,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+30,61.232.128.0/19,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+31,61.232.160.0/19,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+32,61.232.192.0/19,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+33,61.232.224.0/19,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+34,61.233.0.0/19,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+35,61.233.32.0/19,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+36,61.233.64.0/19,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+37,61.233.96.0/19,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+38,61.233.128.0/19,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+39,61.233.160.0/19,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+40,61.233.192.0/19,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+41,61.233.224.0/19,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+42,61.234.0.0/19,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+43,61.234.32.0/19,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+44,61.234.64.0/19,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+45,61.234.96.0/19,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+46,61.234.128.0/19,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+47,61.234.160.0/19,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+48,61.234.192.0/19,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+49,61.234.224.0/19,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+50,61.235.0.0/19,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+51,61.235.32.0/19,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+52,61.235.64.0/19,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+53,61.235.96.0/19,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+54,61.235.128.0/19,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+55,61.235.160.0/19,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+56,61.235.192.0/19,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+57,61.235.224.0/19,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+58,61.237.0.0/19,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+59,211.98.0.0/19,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+60,211.98.32.0/19,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+61,211.98.64.0/19,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+62,211.98.96.0/19,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+63,211.98.128.0/19,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+64,211.98.160.0/19,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+65,211.98.192.0/19,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+66,211.98.224.0/19,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+67,61.232.16.0/20,China TieTong Telecommunications Corporation,9394,N/A,apnic,ISP,False,False,True,False
+68,211.148.224.0/19,China Mobile,9808,N/A,apnic,ISP,False,False,True,False
+69,61.234.152.0/24,China Mobile,9808,N/A,apnic,ISP,False,False,True,False
+70,218.242.0.0/16,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+71,219.233.0.0/16,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+72,218.242.0.0/18,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+73,218.242.64.0/18,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+74,218.242.128.0/18,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+75,218.242.192.0/18,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+76,219.233.0.0/18,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+77,219.233.64.0/18,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+78,219.233.128.0/18,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+79,219.233.192.0/18,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+80,211.144.64.0/19,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+81,211.154.64.0/19,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+82,211.167.96.0/19,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+83,211.144.64.0/20,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+84,211.144.80.0/20,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+85,211.154.64.0/20,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+86,211.154.80.0/20,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+87,211.167.96.0/20,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+88,211.167.112.0/20,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+89,211.154.81.0/24,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+90,211.154.94.0/24,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+91,211.167.96.0/24,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+92,211.167.106.0/24,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+93,218.242.10.0/24,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+94,218.242.25.0/24,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+95,218.242.31.0/24,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+96,218.242.63.0/24,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+97,218.242.64.0/24,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+98,218.242.65.0/24,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+99,218.242.66.0/24,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+100,218.242.67.0/24,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+101,218.242.68.0/24,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+102,218.242.69.0/24,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+103,218.242.70.0/24,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+104,218.242.72.0/24,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+105,218.242.122.0/24,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+106,218.242.123.0/24,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+107,218.242.124.0/24,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+108,218.242.126.0/24,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+109,218.242.131.0/24,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+110,218.242.139.0/24,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+111,218.242.141.0/24,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+112,218.242.144.0/24,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+113,218.242.145.0/24,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+114,218.242.146.0/24,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+115,218.242.165.0/24,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+116,218.242.174.0/24,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+117,218.242.176.0/24,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+118,218.242.178.0/24,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+119,218.242.180.0/24,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+120,218.242.216.0/24,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+121,218.242.252.0/24,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+122,219.233.26.0/24,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+123,219.233.173.0/24,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+124,219.233.199.0/24,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+125,219.233.226.0/24,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+126,219.233.246.0/24,Oriental Cable Network Co., Ltd.,9812,N/A,apnic,Business,False,False,True,False
+127,211.161.128.0/20,5F Greatwall Bldg., A38 Xueyuan Road Haidian District,Beijing,17430,N/A,apnic,ISP,False,False,True,False
+128,211.162.240.0/20,5F Greatwall Bldg., A38 Xueyuan Road Haidian District,Beijing,17430,N/A,apnic,ISP,False,False,True,False
+129,211.161.80.0/21,5F Greatwall Bldg., A38 Xueyuan Road Haidian District,Beijing,17430,N/A,apnic,ISP,False,False,True,False
+130,211.161.88.0/21,5F Greatwall Bldg., A38 Xueyuan Road Haidian District,Beijing,17430,N/A,apnic,ISP,False,False,True,False
+131,211.162.32.0/21,5F Greatwall Bldg., A38 Xueyuan Road Haidian District,Beijing,17430,N/A,apnic,ISP,False,False,True,False
+132,211.161.20.0/22,5F Greatwall Bldg., A38 Xueyuan Road Haidian District,Beijing,17430,N/A,apnic,ISP,False,False,True,False
+133,211.161.52.0/22,5F Greatwall Bldg., A38 Xueyuan Road Haidian District,Beijing,17430,N/A,apnic,ISP,False,False,True,False
+134,211.161.56.0/22,5F Greatwall Bldg., A38 Xueyuan Road Haidian District,Beijing,17430,N/A,apnic,ISP,False,False,True,False
+135,219.235.64.0/19,Daqing zhongji petroleum telecommunication construction limited cpmpany,17968,N/A,apnic,ISP,False,False,True,False
+136,219.235.96.0/19,Daqing zhongji petroleum telecommunication construction limited cpmpany,17968,N/A,apnic,ISP,False,False,True,False
+137,218.97.192.0/20,Daqing zhongji petroleum telecommunication construction limited cpmpany,17968,N/A,apnic,ISP,False,False,True,False
+138,218.97.208.0/20,Daqing zhongji petroleum telecommunication construction limited cpmpany,17968,N/A,apnic,ISP,False,False,True,False
+139,218.244.192.0/20,Daqing zhongji petroleum telecommunication construction limited cpmpany,17968,N/A,apnic,ISP,False,False,True,False
+140,218.246.160.0/20,Daqing zhongji petroleum telecommunication construction limited cpmpany,17968,N/A,apnic,ISP,False,False,True,False
+141,218.246.176.0/20,Daqing zhongji petroleum telecommunication construction limited cpmpany,17968,N/A,apnic,ISP,False,False,True,False
+142,211.158.25.0/24,CHONGQING CNC BROADBAND NETWORKS CO.,LTD,23851,N/A,apnic,Business,False,False,True,False
+143,210.76.0.0/19,KuanggongLu, Pingdingshan, Henan, China,24137,N/A,apnic,Business,False,False,True,False
+144,218.109.0.0/16,Huashu media&Network Limited,24139,N/A,apnic,ISP,False,False,True,False
+145,219.82.0.0/16,Huashu media&Network Limited,24139,N/A,apnic,ISP,False,False,True,False
+146,218.109.0.0/19,Huashu media&Network Limited,24139,N/A,apnic,ISP,False,False,True,False
+147,218.109.32.0/19,Huashu media&Network Limited,24139,N/A,apnic,ISP,False,False,True,False
+148,218.109.64.0/19,Huashu media&Network Limited,24139,N/A,apnic,ISP,False,False,True,False
+149,218.109.96.0/19,Huashu media&Network Limited,24139,N/A,apnic,ISP,False,False,True,False
+150,218.109.128.0/19,Huashu media&Network Limited,24139,N/A,apnic,ISP,False,False,True,False
+151,218.109.160.0/19,Huashu media&Network Limited,24139,N/A,apnic,ISP,False,False,True,False
+152,218.109.192.0/19,Huashu media&Network Limited,24139,N/A,apnic,ISP,False,False,True,False
+153,218.109.224.0/19,Huashu media&Network Limited,24139,N/A,apnic,ISP,False,False,True,False
+154,219.82.0.0/19,Huashu media&Network Limited,24139,N/A,apnic,ISP,False,False,True,False
+155,219.82.32.0/19,Huashu media&Network Limited,24139,N/A,apnic,ISP,False,False,True,False
+156,219.82.64.0/19,Huashu media&Network Limited,24139,N/A,apnic,ISP,False,False,True,False
+157,219.82.96.0/19,Huashu media&Network Limited,24139,N/A,apnic,ISP,False,False,True,False
+158,219.82.128.0/19,Huashu media&Network Limited,24139,N/A,apnic,ISP,False,False,True,False
+159,219.82.160.0/19,Huashu media&Network Limited,24139,N/A,apnic,ISP,False,False,True,False
+160,219.82.192.0/19,Huashu media&Network Limited,24139,N/A,apnic,ISP,False,False,True,False
+161,219.82.224.0/19,Huashu media&Network Limited,24139,N/A,apnic,ISP,False,False,True,False
+162,218.244.128.0/19,Hangzhou Alibaba Advertising Co.,Ltd.,37963,N/A,apnic,Business,False,False,True,False
+163,218.244.128.0/20,Hangzhou Alibaba Advertising Co.,Ltd.,37963,N/A,apnic,Business,False,False,True,False
+164,218.244.144.0/20,Hangzhou Alibaba Advertising Co.,Ltd.,37963,N/A,apnic,Business,False,False,True,False
+165,211.159.128.0/17,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+166,210.73.160.0/19,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+167,210.73.176.0/20,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+168,211.159.192.0/22,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+169,211.159.212.0/22,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+170,211.159.216.0/22,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+171,211.159.220.0/22,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+172,211.159.224.0/22,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+173,211.159.240.0/22,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+174,211.159.248.0/22,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+175,211.159.128.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+176,211.159.130.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+177,211.159.132.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+178,211.159.134.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+179,211.159.136.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+180,211.159.138.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+181,211.159.142.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+182,211.159.144.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+183,211.159.146.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+184,211.159.148.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+185,211.159.150.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+186,211.159.152.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+187,211.159.154.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+188,211.159.156.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+189,211.159.158.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+190,211.159.160.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+191,211.159.162.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+192,211.159.164.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+193,211.159.166.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+194,211.159.168.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+195,211.159.170.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+196,211.159.172.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+197,211.159.174.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+198,211.159.176.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+199,211.159.178.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+200,211.159.180.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+201,211.159.182.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+202,211.159.184.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+203,211.159.186.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+204,211.159.188.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+205,211.159.190.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+206,211.159.196.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+207,211.159.198.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+208,211.159.200.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+209,211.159.202.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+210,211.159.204.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+211,211.159.206.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+212,211.159.208.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+213,211.159.210.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+214,211.159.228.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+215,211.159.230.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+216,211.159.232.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+217,211.159.234.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+218,211.159.236.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+219,211.159.238.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+220,211.159.244.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+221,211.159.246.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+222,211.159.252.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+223,211.159.254.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+224,219.232.68.0/22,GUANGXI RADIO & TELEVISION INFORMATION NETWORK CO.,LTD.,63581,N/A,apnic,Business,False,False,True,False
+225,219.232.72.0/22,GUANGXI RADIO & TELEVISION INFORMATION NETWORK CO.,LTD.,63581,N/A,apnic,Business,False,False,True,False
+226,219.232.88.0/22,GUANGXI RADIO & TELEVISION INFORMATION NETWORK CO.,LTD.,63581,N/A,apnic,Business,False,False,True,False
+227,219.232.64.0/23,GUANGXI RADIO & TELEVISION INFORMATION NETWORK CO.,LTD.,63581,N/A,apnic,Business,False,False,True,False
+228,219.232.66.0/23,GUANGXI RADIO & TELEVISION INFORMATION NETWORK CO.,LTD.,63581,N/A,apnic,Business,False,False,True,False
+229,219.232.76.0/23,GUANGXI RADIO & TELEVISION INFORMATION NETWORK CO.,LTD.,63581,N/A,apnic,Business,False,False,True,False
+230,219.232.80.0/23,GUANGXI RADIO & TELEVISION INFORMATION NETWORK CO.,LTD.,63581,N/A,apnic,Business,False,False,True,False
+231,219.232.86.0/23,GUANGXI RADIO & TELEVISION INFORMATION NETWORK CO.,LTD.,63581,N/A,apnic,Business,False,False,True,False
+232,219.232.94.0/23,GUANGXI RADIO & TELEVISION INFORMATION NETWORK CO.,LTD.,63581,N/A,apnic,Business,False,False,True,False
+233,219.232.73.0/24,GUANGXI RADIO & TELEVISION INFORMATION NETWORK CO.,LTD.,63581,N/A,apnic,Business,False,False,True,False
+234,219.232.78.0/24,GUANGXI RADIO & TELEVISION INFORMATION NETWORK CO.,LTD.,63581,N/A,apnic,Business,False,False,True,False
+235,219.232.79.0/24,GUANGXI RADIO & TELEVISION INFORMATION NETWORK CO.,LTD.,63581,N/A,apnic,Business,False,False,True,False
+236,219.232.82.0/24,GUANGXI RADIO & TELEVISION INFORMATION NETWORK CO.,LTD.,63581,N/A,apnic,Business,False,False,True,False
+237,219.232.83.0/24,GUANGXI RADIO & TELEVISION INFORMATION NETWORK CO.,LTD.,63581,N/A,apnic,Business,False,False,True,False
+238,219.232.84.0/24,GUANGXI RADIO & TELEVISION INFORMATION NETWORK CO.,LTD.,63581,N/A,apnic,Business,False,False,True,False
+239,219.232.85.0/24,GUANGXI RADIO & TELEVISION INFORMATION NETWORK CO.,LTD.,63581,N/A,apnic,Business,False,False,True,False
+240,219.232.87.0/24,GUANGXI RADIO & TELEVISION INFORMATION NETWORK CO.,LTD.,63581,N/A,apnic,Business,False,False,True,False
+241,219.232.90.0/24,GUANGXI RADIO & TELEVISION INFORMATION NETWORK CO.,LTD.,63581,N/A,apnic,Business,False,False,True,False
+242,219.232.92.0/24,GUANGXI RADIO & TELEVISION INFORMATION NETWORK CO.,LTD.,63581,N/A,apnic,Business,False,False,True,False
+243,219.232.93.0/24,GUANGXI RADIO & TELEVISION INFORMATION NETWORK CO.,LTD.,63581,N/A,apnic,Business,False,False,True,False
+244,219.232.94.0/24,GUANGXI RADIO & TELEVISION INFORMATION NETWORK CO.,LTD.,63581,N/A,apnic,Business,False,False,True,False
+245,218.247.64.0/19,West263 International Limited,139021,N/A,apnic,Cloud,False,False,True,False
+246,219.234.16.0/20,West263 International Limited,139021,N/A,apnic,Cloud,False,False,True,False
+247,219.234.0.0/21,West263 International Limited,139021,N/A,apnic,Cloud,False,False,True,False
+248,219.234.8.0/23,West263 International Limited,139021,N/A,apnic,Cloud,False,False,True,False
+249,219.235.0.0/20,Big Data Center Of Shandong Province,139154,N/A,apnic,Business,False,False,True,False
+250,211.148.192.0/19,ShenZhen Topway Video Communication Co. Ltd,17962,N/A,apnic,ISP,False,False,True,False
+251,219.232.160.0/19,ShenZhen Topway Video Communication Co. Ltd,17962,N/A,apnic,ISP,False,False,True,False
+252,219.234.96.0/19,ShenZhen Topway Video Communication Co. Ltd,17962,N/A,apnic,ISP,False,False,True,False
+253,219.234.112.0/20,ShenZhen Topway Video Communication Co. Ltd,17962,N/A,apnic,ISP,False,False,True,False
+254,219.232.187.0/24,ShenZhen Topway Video Communication Co. Ltd,17962,N/A,apnic,ISP,False,False,True,False
+255,218.246.192.0/19,Chengdu Information Harbor Co., Ltd,18242,N/A,apnic,Business,False,False,True,False
+256,202.108.119.0/24,CNNIC member,4611,N/A,apnic,ISP,False,False,True,False
+257,203.192.1.0/24,CNNIC member,4611,N/A,apnic,ISP,False,False,True,False
+258,203.192.2.0/24,CNNIC member,4611,N/A,apnic,ISP,False,False,True,False
+259,203.192.4.0/24,CNNIC member,4611,N/A,apnic,ISP,False,False,True,False
+260,203.192.6.0/24,CNNIC member,4611,N/A,apnic,ISP,False,False,True,False
+261,203.192.7.0/24,CNNIC member,4611,N/A,apnic,ISP,False,False,True,False
+262,203.192.8.0/24,CNNIC member,4611,N/A,apnic,ISP,False,False,True,False
+263,203.192.9.0/24,CNNIC member,4611,N/A,apnic,ISP,False,False,True,False
+264,203.192.10.0/24,CNNIC member,4611,N/A,apnic,ISP,False,False,True,False
+265,211.151.0.0/16,21vianet(China) Inc.,9802,N/A,apnic,N/A,False,False,True,False
+266,211.151.0.0/18,21vianet(China) Inc.,9802,N/A,apnic,N/A,False,False,True,False
+267,211.151.64.0/18,21vianet(China) Inc.,9802,N/A,apnic,N/A,False,False,True,False
+268,211.151.128.0/18,21vianet(China) Inc.,9802,N/A,apnic,N/A,False,False,True,False
+269,211.151.192.0/18,21vianet(China) Inc.,9802,N/A,apnic,N/A,False,False,True,False
+270,210.77.128.0/19,21vianet(China) Inc.,9802,N/A,apnic,N/A,False,False,True,False
+271,211.99.192.0/19,21vianet(China) Inc.,9802,N/A,apnic,N/A,False,False,True,False
+272,211.152.0.0/19,21vianet(China) Inc.,9802,N/A,apnic,N/A,False,False,True,False
+273,203.196.0.0/22,21vianet(China) Inc.,9802,N/A,apnic,N/A,False,False,True,False
+274,211.99.188.0/23,21vianet(China) Inc.,9802,N/A,apnic,N/A,False,False,True,False
+275,211.151.4.0/23,21vianet(China) Inc.,9802,N/A,apnic,N/A,False,False,True,False
+276,211.151.46.0/23,21vianet(China) Inc.,9802,N/A,apnic,N/A,False,False,True,False
+277,211.151.84.0/23,21vianet(China) Inc.,9802,N/A,apnic,N/A,False,False,True,False
+278,211.151.180.0/23,21vianet(China) Inc.,9802,N/A,apnic,N/A,False,False,True,False
+279,211.151.226.0/23,21vianet(China) Inc.,9802,N/A,apnic,N/A,False,False,True,False
+280,211.152.96.0/23,21vianet(China) Inc.,9802,N/A,apnic,N/A,False,False,True,False
+281,211.99.216.0/24,21vianet(China) Inc.,9802,N/A,apnic,N/A,False,False,True,False
+282,211.151.207.0/24,21vianet(China) Inc.,9802,N/A,apnic,N/A,False,False,True,False
+283,219.235.128.0/21,Data Management Centre National Bureau of Statistics of China,9807,N/A,apnic,ISP,False,False,True,False
+284,219.235.136.0/21,Data Management Centre National Bureau of Statistics of China,9807,N/A,apnic,ISP,False,False,True,False
+285,219.235.144.0/21,Data Management Centre National Bureau of Statistics of China,9807,N/A,apnic,ISP,False,False,True,False
+286,219.235.224.0/21,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+287,219.235.232.0/21,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+288,219.235.240.0/21,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+289,219.235.248.0/21,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+290,219.235.224.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+291,219.235.225.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+292,219.235.226.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+293,219.235.227.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+294,219.235.228.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+295,219.235.229.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+296,219.235.230.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+297,219.235.232.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+298,219.235.233.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+299,219.235.234.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+300,219.235.235.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+301,219.235.236.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+302,219.235.237.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+303,219.235.241.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+304,219.235.248.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+305,219.235.251.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+306,219.235.252.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+307,219.235.255.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+308,211.155.184.0/21,Beijing Times Netstar Technology Co.,Ltd,9810,N/A,apnic,Business,False,False,True,False
+309,211.155.172.0/22,Beijing Times Netstar Technology Co.,Ltd,9810,N/A,apnic,Business,False,False,True,False
+310,211.155.168.0/23,Beijing Times Netstar Technology Co.,Ltd,9810,N/A,apnic,Business,False,False,True,False
+311,211.155.170.0/23,Beijing Times Netstar Technology Co.,Ltd,9810,N/A,apnic,Business,False,False,True,False
+312,211.155.176.0/23,Beijing Times Netstar Technology Co.,Ltd,9810,N/A,apnic,Business,False,False,True,False
+313,211.155.178.0/23,Beijing Times Netstar Technology Co.,Ltd,9810,N/A,apnic,Business,False,False,True,False
+314,211.144.32.0/19,Development & Research Center of State Council Net.,9811,N/A,apnic,ISP,False,False,True,False
+315,211.144.128.0/19,Development & Research Center of State Council Net.,9811,N/A,apnic,ISP,False,False,True,False
+316,211.167.64.0/19,Development & Research Center of State Council Net.,9811,N/A,apnic,ISP,False,False,True,False
+317,218.246.0.0/19,Development & Research Center of State Council Net.,9811,N/A,apnic,ISP,False,False,True,False
+318,211.144.128.0/20,Development & Research Center of State Council Net.,9811,N/A,apnic,ISP,False,False,True,False
+319,211.144.144.0/20,Development & Research Center of State Council Net.,9811,N/A,apnic,ISP,False,False,True,False
+320,211.167.64.0/20,Development & Research Center of State Council Net.,9811,N/A,apnic,ISP,False,False,True,False
+321,218.246.16.0/20,Development & Research Center of State Council Net.,9811,N/A,apnic,ISP,False,False,True,False
+322,211.144.32.0/21,Development & Research Center of State Council Net.,9811,N/A,apnic,ISP,False,False,True,False
+323,211.144.152.0/21,Development & Research Center of State Council Net.,9811,N/A,apnic,ISP,False,False,True,False
+324,211.167.80.0/21,Development & Research Center of State Council Net.,9811,N/A,apnic,ISP,False,False,True,False
+325,211.144.144.0/22,Development & Research Center of State Council Net.,9811,N/A,apnic,ISP,False,False,True,False
+326,211.167.88.0/22,Development & Research Center of State Council Net.,9811,N/A,apnic,ISP,False,False,True,False
+327,211.167.92.0/22,Development & Research Center of State Council Net.,9811,N/A,apnic,ISP,False,False,True,False
+328,211.167.66.0/23,Development & Research Center of State Council Net.,9811,N/A,apnic,ISP,False,False,True,False
+329,202.106.127.0/24,Development & Research Center of State Council Net.,9811,N/A,apnic,ISP,False,False,True,False
+330,211.144.142.0/24,Development & Research Center of State Council Net.,9811,N/A,apnic,ISP,False,False,True,False
+331,211.144.143.0/24,Development & Research Center of State Council Net.,9811,N/A,apnic,ISP,False,False,True,False
+332,211.144.146.0/24,Development & Research Center of State Council Net.,9811,N/A,apnic,ISP,False,False,True,False
+333,211.144.148.0/24,Development & Research Center of State Council Net.,9811,N/A,apnic,ISP,False,False,True,False
+334,211.144.150.0/24,Development & Research Center of State Council Net.,9811,N/A,apnic,ISP,False,False,True,False
+335,211.144.151.0/24,Development & Research Center of State Council Net.,9811,N/A,apnic,ISP,False,False,True,False
+336,211.144.154.0/24,Development & Research Center of State Council Net.,9811,N/A,apnic,ISP,False,False,True,False
+337,211.144.159.0/24,Development & Research Center of State Council Net.,9811,N/A,apnic,ISP,False,False,True,False
+338,211.167.64.0/24,Development & Research Center of State Council Net.,9811,N/A,apnic,ISP,False,False,True,False
+339,211.167.67.0/24,Development & Research Center of State Council Net.,9811,N/A,apnic,ISP,False,False,True,False
+340,211.167.68.0/24,Development & Research Center of State Council Net.,9811,N/A,apnic,ISP,False,False,True,False
+341,211.167.74.0/24,Development & Research Center of State Council Net.,9811,N/A,apnic,ISP,False,False,True,False
+342,211.167.83.0/24,Development & Research Center of State Council Net.,9811,N/A,apnic,ISP,False,False,True,False
+343,218.246.21.0/24,Development & Research Center of State Council Net.,9811,N/A,apnic,ISP,False,False,True,False
+344,218.246.22.0/24,Development & Research Center of State Council Net.,9811,N/A,apnic,ISP,False,False,True,False
+345,211.160.160.0/19,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+346,210.72.224.0/20,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+347,210.77.176.0/20,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+348,211.160.80.0/20,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+349,211.160.160.0/20,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+350,211.160.176.0/20,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+351,211.160.240.0/20,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+352,210.72.224.0/21,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+353,210.72.232.0/21,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+354,210.72.240.0/21,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+355,211.99.8.0/21,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+356,211.160.72.0/21,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+357,211.160.80.0/21,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+358,211.160.184.0/21,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+359,211.160.240.0/21,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+360,211.160.248.0/21,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+361,210.72.236.0/22,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+362,210.72.244.0/22,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+363,211.99.8.0/22,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+364,211.99.28.0/22,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+365,211.160.0.0/22,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+366,211.160.20.0/22,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+367,211.160.88.0/22,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+368,211.160.92.0/22,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+369,211.160.112.0/22,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+370,211.160.168.0/22,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+371,211.160.176.0/22,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+372,210.72.226.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+373,210.72.230.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+374,210.72.232.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+375,210.72.240.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+376,211.99.12.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+377,211.99.16.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+378,211.99.24.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+379,211.99.26.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+380,211.99.28.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+381,211.160.0.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+382,211.160.2.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+383,211.160.4.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+384,211.160.8.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+385,211.160.10.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+386,211.160.14.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+387,211.160.16.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+388,211.160.18.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+389,211.160.20.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+390,211.160.22.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+391,211.160.24.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+392,211.160.26.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+393,211.160.28.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+394,211.160.36.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+395,211.160.46.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+396,211.160.62.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+397,211.160.72.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+398,211.160.112.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+399,211.160.120.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+400,211.160.194.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+401,211.160.202.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+402,211.160.204.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+403,211.160.252.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+404,210.72.226.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+405,210.72.227.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+406,210.72.232.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+407,210.72.236.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+408,210.72.238.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+409,210.72.239.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+410,210.72.240.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+411,210.72.241.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+412,210.72.242.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+413,210.72.243.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+414,210.72.245.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+415,210.72.246.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+416,211.99.9.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+417,211.99.10.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+418,211.99.11.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+419,211.99.12.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+420,211.99.14.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+421,211.99.15.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+422,211.99.16.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+423,211.99.17.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+424,211.99.25.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+425,211.99.26.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+426,211.99.28.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+427,211.99.29.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+428,211.99.30.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+429,211.160.4.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+430,211.160.9.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+431,211.160.10.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+432,211.160.11.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+433,211.160.15.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+434,211.160.16.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+435,211.160.19.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+436,211.160.20.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+437,211.160.21.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+438,211.160.23.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+439,211.160.24.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+440,211.160.27.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+441,211.160.28.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+442,211.160.29.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+443,211.160.36.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+444,211.160.37.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+445,211.160.46.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+446,211.160.62.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+447,211.160.72.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+448,211.160.74.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+449,211.160.75.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+450,211.160.77.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+451,211.160.78.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+452,211.160.79.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+453,211.160.115.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+454,211.160.120.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+455,211.160.160.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+456,211.160.162.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+457,211.160.163.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+458,211.160.164.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+459,211.160.165.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+460,211.160.166.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+461,211.160.167.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+462,211.160.168.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+463,211.160.169.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+464,211.160.170.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+465,211.160.171.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+466,211.160.178.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+467,211.160.187.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+468,211.160.195.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+469,211.160.196.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+470,211.160.203.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+471,211.160.205.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+472,211.160.244.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+473,211.160.250.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+474,211.160.252.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+475,211.160.253.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+476,218.97.0.0/17,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+477,218.97.0.0/18,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+478,218.97.0.0/19,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+479,218.97.32.0/19,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+480,218.97.0.0/20,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+481,218.97.0.0/21,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+482,218.96.64.0/22,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+483,218.96.104.0/22,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+484,218.96.108.0/23,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+485,218.96.0.0/24,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+486,218.96.64.0/24,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+487,218.96.65.0/24,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+488,218.96.107.0/24,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+489,218.96.241.0/24,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+490,218.96.244.0/24,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+491,218.96.255.0/24,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+492,218.97.14.0/24,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+493,218.97.16.0/24,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+494,218.97.30.0/24,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+495,218.97.39.0/24,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+496,203.192.12.0/22,XINHUA NEWS AGENCY,17781,N/A,apnic,Business,False,False,True,False
+497,203.192.24.0/23,XINHUA NEWS AGENCY,17781,N/A,apnic,Business,False,False,True,False
+498,203.192.3.0/24,XINHUA NEWS AGENCY,17781,N/A,apnic,Business,False,False,True,False
+499,203.192.5.0/24,XINHUA NEWS AGENCY,17781,N/A,apnic,Business,False,False,True,False
+500,203.192.11.0/24,XINHUA NEWS AGENCY,17781,N/A,apnic,Business,False,False,True,False
+501,203.192.16.0/24,XINHUA NEWS AGENCY,17781,N/A,apnic,Business,False,False,True,False
+502,219.234.128.0/18,Beijing Dian-Xin-Tong Network Technologies Co., Ltd.,17964,N/A,apnic,ISP,False,False,True,False
+503,219.234.192.0/18,Beijing Dian-Xin-Tong Network Technologies Co., Ltd.,17964,N/A,apnic,ISP,False,False,True,False
+504,202.130.0.0/19,Beijing Dian-Xin-Tong Network Technologies Co., Ltd.,17964,N/A,apnic,ISP,False,False,True,False
+505,211.101.0.0/19,Beijing Dian-Xin-Tong Network Technologies Co., Ltd.,17964,N/A,apnic,ISP,False,False,True,False
+506,211.101.32.0/19,Beijing Dian-Xin-Tong Network Technologies Co., Ltd.,17964,N/A,apnic,ISP,False,False,True,False
+507,211.155.128.0/19,Beijing Dian-Xin-Tong Network Technologies Co., Ltd.,17964,N/A,apnic,ISP,False,False,True,False
+508,211.167.224.0/19,Beijing Dian-Xin-Tong Network Technologies Co., Ltd.,17964,N/A,apnic,ISP,False,False,True,False
+509,218.244.224.0/19,Beijing Dian-Xin-Tong Network Technologies Co., Ltd.,17964,N/A,apnic,ISP,False,False,True,False
+510,218.247.0.0/19,Beijing Dian-Xin-Tong Network Technologies Co., Ltd.,17964,N/A,apnic,ISP,False,False,True,False
+511,210.75.96.0/20,Beijing Dian-Xin-Tong Network Technologies Co., Ltd.,17964,N/A,apnic,ISP,False,False,True,False
+512,210.75.112.0/20,Beijing Dian-Xin-Tong Network Technologies Co., Ltd.,17964,N/A,apnic,ISP,False,False,True,False
+513,210.76.96.0/20,Beijing Dian-Xin-Tong Network Technologies Co., Ltd.,17964,N/A,apnic,ISP,False,False,True,False
+514,210.76.112.0/20,Beijing Dian-Xin-Tong Network Technologies Co., Ltd.,17964,N/A,apnic,ISP,False,False,True,False
+515,211.100.224.0/20,Beijing Dian-Xin-Tong Network Technologies Co., Ltd.,17964,N/A,apnic,ISP,False,False,True,False
+516,211.100.240.0/20,Beijing Dian-Xin-Tong Network Technologies Co., Ltd.,17964,N/A,apnic,ISP,False,False,True,False
+517,211.147.16.0/20,Beijing Dian-Xin-Tong Network Technologies Co., Ltd.,17964,N/A,apnic,ISP,False,False,True,False
+518,211.161.0.0/20,Beijing Dian-Xin-Tong Network Technologies Co., Ltd.,17964,N/A,apnic,ISP,False,False,True,False
+519,211.161.32.0/20,Beijing Dian-Xin-Tong Network Technologies Co., Ltd.,17964,N/A,apnic,ISP,False,False,True,False
+520,211.147.8.0/21,Beijing Dian-Xin-Tong Network Technologies Co., Ltd.,17964,N/A,apnic,ISP,False,False,True,False
+521,211.154.160.0/21,Beijing Dian-Xin-Tong Network Technologies Co., Ltd.,17964,N/A,apnic,ISP,False,False,True,False
+522,211.154.168.0/21,Beijing Dian-Xin-Tong Network Technologies Co., Ltd.,17964,N/A,apnic,ISP,False,False,True,False
+523,211.155.240.0/21,Beijing Dian-Xin-Tong Network Technologies Co., Ltd.,17964,N/A,apnic,ISP,False,False,True,False
+524,211.155.248.0/21,Beijing Dian-Xin-Tong Network Technologies Co., Ltd.,17964,N/A,apnic,ISP,False,False,True,False
+525,219.234.80.0/21,Beijing Dian-Xin-Tong Network Technologies Co., Ltd.,17964,N/A,apnic,ISP,False,False,True,False
+526,219.234.88.0/21,Beijing Dian-Xin-Tong Network Technologies Co., Ltd.,17964,N/A,apnic,ISP,False,False,True,False
+527,211.147.4.0/22,Beijing Dian-Xin-Tong Network Technologies Co., Ltd.,17964,N/A,apnic,ISP,False,False,True,False
+528,218.241.16.0/22,Beijing Dian-Xin-Tong Network Technologies Co., Ltd.,17964,N/A,apnic,ISP,False,False,True,False
+529,218.241.24.0/22,Beijing Dian-Xin-Tong Network Technologies Co., Ltd.,17964,N/A,apnic,ISP,False,False,True,False
+530,218.241.152.0/22,Beijing Dian-Xin-Tong Network Technologies Co., Ltd.,17964,N/A,apnic,ISP,False,False,True,False
+531,218.241.156.0/22,Beijing Dian-Xin-Tong Network Technologies Co., Ltd.,17964,N/A,apnic,ISP,False,False,True,False
+532,210.73.64.0/19,NO.11 Xi San Huan Zhong Road,Beijing,18239,N/A,apnic,Business,False,False,True,False
+533,210.75.192.0/19,NO.11 Xi San Huan Zhong Road,Beijing,18239,N/A,apnic,Business,False,False,True,False
+534,211.147.128.0/19,NO.11 Xi San Huan Zhong Road,Beijing,18239,N/A,apnic,Business,False,False,True,False
+535,218.246.64.0/19,NO.11 Xi San Huan Zhong Road,Beijing,18239,N/A,apnic,Business,False,False,True,False
+536,219.232.192.0/19,NO.11 Xi San Huan Zhong Road,Beijing,18239,N/A,apnic,Business,False,False,True,False
+537,210.75.192.0/20,NO.11 Xi San Huan Zhong Road,Beijing,18239,N/A,apnic,Business,False,False,True,False
+538,211.147.128.0/20,NO.11 Xi San Huan Zhong Road,Beijing,18239,N/A,apnic,Business,False,False,True,False
+539,218.246.64.0/20,NO.11 Xi San Huan Zhong Road,Beijing,18239,N/A,apnic,Business,False,False,True,False
+540,218.246.80.0/20,NO.11 Xi San Huan Zhong Road,Beijing,18239,N/A,apnic,Business,False,False,True,False
+541,219.232.192.0/20,NO.11 Xi San Huan Zhong Road,Beijing,18239,N/A,apnic,Business,False,False,True,False
+542,210.72.237.0/24,State Power Information Net,18241,N/A,apnic,Business,False,False,True,False
+543,210.77.176.0/24,State Power Information Net,18241,N/A,apnic,Business,False,False,True,False
+544,210.77.177.0/24,State Power Information Net,18241,N/A,apnic,Business,False,False,True,False
+545,210.77.178.0/24,State Power Information Net,18241,N/A,apnic,Business,False,False,True,False
+546,210.77.179.0/24,State Power Information Net,18241,N/A,apnic,Business,False,False,True,False
+547,210.77.180.0/24,State Power Information Net,18241,N/A,apnic,Business,False,False,True,False
+548,210.77.181.0/24,State Power Information Net,18241,N/A,apnic,Business,False,False,True,False
+549,210.77.182.0/24,State Power Information Net,18241,N/A,apnic,Business,False,False,True,False
+550,210.77.183.0/24,State Power Information Net,18241,N/A,apnic,Business,False,False,True,False
+551,210.77.184.0/24,State Power Information Net,18241,N/A,apnic,Business,False,False,True,False
+552,210.77.185.0/24,State Power Information Net,18241,N/A,apnic,Business,False,False,True,False
+553,210.77.189.0/24,State Power Information Net,18241,N/A,apnic,Business,False,False,True,False
+554,210.77.190.0/24,State Power Information Net,18241,N/A,apnic,Business,False,False,True,False
+555,210.77.191.0/24,State Power Information Net,18241,N/A,apnic,Business,False,False,True,False
+556,218.97.255.0/24,Beijing Guanghuan Xinwang Digital,23844,N/A,apnic,Business,False,False,True,False
+557,219.235.192.0/24,BEIJING CBD TELECOM CO,.LTD,24147,N/A,apnic,ISP,False,False,True,False
+558,219.235.193.0/24,BEIJING CBD TELECOM CO,.LTD,24147,N/A,apnic,ISP,False,False,True,False
+559,219.235.207.0/24,BEIJING CBD TELECOM CO,.LTD,24147,N/A,apnic,ISP,False,False,True,False
+560,218.241.96.0/20,China Internet Network Infomation Center,24151,N/A,apnic,Education,False,False,True,False
+561,203.119.25.0/24,China Internet Network Infomation Center,24151,N/A,apnic,Education,False,False,True,False
+562,203.119.26.0/24,China Internet Network Infomation Center,24151,N/A,apnic,Education,False,False,True,False
+563,203.119.27.0/24,China Internet Network Infomation Center,24151,N/A,apnic,Education,False,False,True,False
+564,203.119.28.0/24,China Internet Network Infomation Center,24151,N/A,apnic,Education,False,False,True,False
+565,203.119.29.0/24,China Internet Network Infomation Center,24151,N/A,apnic,Education,False,False,True,False
+566,203.119.31.0/24,China Internet Network Infomation Center,24151,N/A,apnic,Education,False,False,True,False
+567,203.119.33.0/24,China Internet Network Infomation Center,24151,N/A,apnic,Education,False,False,True,False
+568,218.241.96.0/24,China Internet Network Infomation Center,24151,N/A,apnic,Education,False,False,True,False
+569,218.241.97.0/24,China Internet Network Infomation Center,24151,N/A,apnic,Education,False,False,True,False
+570,218.241.103.0/24,China Internet Network Infomation Center,24151,N/A,apnic,Education,False,False,True,False
+571,218.241.104.0/24,China Internet Network Infomation Center,24151,N/A,apnic,Education,False,False,True,False
+572,218.241.110.0/24,China Internet Network Infomation Center,24151,N/A,apnic,Education,False,False,True,False
+573,218.241.111.0/24,China Internet Network Infomation Center,24151,N/A,apnic,Education,False,False,True,False
+574,218.241.112.0/24,China Internet Network Infomation Center,24151,N/A,apnic,Education,False,False,True,False
+575,218.241.115.0/24,China Internet Network Infomation Center,24151,N/A,apnic,Education,False,False,True,False
+576,218.241.116.0/24,China Internet Network Infomation Center,24151,N/A,apnic,Education,False,False,True,False
+577,218.241.117.0/24,China Internet Network Infomation Center,24151,N/A,apnic,Education,False,False,True,False
+578,218.241.118.0/24,China Internet Network Infomation Center,24151,N/A,apnic,Education,False,False,True,False
+579,218.241.119.0/24,China Internet Network Infomation Center,24151,N/A,apnic,Education,False,False,True,False
+580,218.241.120.0/24,China Internet Network Infomation Center,24151,N/A,apnic,Education,False,False,True,False
+581,218.241.121.0/24,China Internet Network Infomation Center,24151,N/A,apnic,Education,False,False,True,False
+582,218.241.122.0/24,China Internet Network Infomation Center,24151,N/A,apnic,Education,False,False,True,False
+583,218.241.123.0/24,China Internet Network Infomation Center,24151,N/A,apnic,Education,False,False,True,False
+584,218.241.124.0/24,China Internet Network Infomation Center,24151,N/A,apnic,Education,False,False,True,False
+585,218.241.125.0/24,China Internet Network Infomation Center,24151,N/A,apnic,Education,False,False,True,False
+586,218.241.126.0/24,China Internet Network Infomation Center,24151,N/A,apnic,Education,False,False,True,False
+587,218.241.127.0/24,China Internet Network Infomation Center,24151,N/A,apnic,Education,False,False,True,False
+588,203.119.26.0/24,China Internet Network Infomation Center,24406,N/A,apnic,Business,False,False,True,False
+589,203.119.27.0/24,China Internet Network Infomation Center,24406,N/A,apnic,Business,False,False,True,False
+590,203.119.28.0/24,China Internet Network Infomation Center,24406,N/A,apnic,Business,False,False,True,False
+591,203.119.29.0/24,China Internet Network Infomation Center,24406,N/A,apnic,Business,False,False,True,False
+592,203.119.30.0/24,China Internet Network Infomation Center,24406,N/A,apnic,Business,False,False,True,False
+593,203.119.31.0/24,China Internet Network Infomation Center,24406,N/A,apnic,Business,False,False,True,False
+594,211.156.192.0/24,Jia No.8, North Lishi Road, Xicheng Dist.Beijing, China,24430,N/A,apnic,Business,False,False,True,False
+595,211.156.193.0/24,Jia No.8, North Lishi Road, Xicheng Dist.Beijing, China,24430,N/A,apnic,Business,False,False,True,False
+596,211.156.194.0/24,Jia No.8, North Lishi Road, Xicheng Dist.Beijing, China,24430,N/A,apnic,Business,False,False,True,False
+597,211.156.195.0/24,Jia No.8, North Lishi Road, Xicheng Dist.Beijing, China,24430,N/A,apnic,Business,False,False,True,False
+598,211.156.196.0/24,Jia No.8, North Lishi Road, Xicheng Dist.Beijing, China,24430,N/A,apnic,Business,False,False,True,False
+599,211.156.197.0/24,Jia No.8, North Lishi Road, Xicheng Dist.Beijing, China,24430,N/A,apnic,Business,False,False,True,False
+600,211.156.198.0/24,Jia No.8, North Lishi Road, Xicheng Dist.Beijing, China,24430,N/A,apnic,Business,False,False,True,False
+601,211.156.199.0/24,Jia No.8, North Lishi Road, Xicheng Dist.Beijing, China,24430,N/A,apnic,Business,False,False,True,False
+602,211.156.200.0/24,Jia No.8, North Lishi Road, Xicheng Dist.Beijing, China,24430,N/A,apnic,Business,False,False,True,False
+603,211.156.201.0/24,Jia No.8, North Lishi Road, Xicheng Dist.Beijing, China,24430,N/A,apnic,Business,False,False,True,False
+604,211.156.202.0/24,Jia No.8, North Lishi Road, Xicheng Dist.Beijing, China,24430,N/A,apnic,Business,False,False,True,False
+605,211.156.203.0/24,Jia No.8, North Lishi Road, Xicheng Dist.Beijing, China,24430,N/A,apnic,Business,False,False,True,False
+606,211.156.204.0/24,Jia No.8, North Lishi Road, Xicheng Dist.Beijing, China,24430,N/A,apnic,Business,False,False,True,False
+607,211.156.205.0/24,Jia No.8, North Lishi Road, Xicheng Dist.Beijing, China,24430,N/A,apnic,Business,False,False,True,False
+608,211.156.206.0/24,Jia No.8, North Lishi Road, Xicheng Dist.Beijing, China,24430,N/A,apnic,Business,False,False,True,False
+609,211.156.207.0/24,Jia No.8, North Lishi Road, Xicheng Dist.Beijing, China,24430,N/A,apnic,Business,False,False,True,False
+610,211.156.208.0/24,Jia No.8, North Lishi Road, Xicheng Dist.Beijing, China,24430,N/A,apnic,Business,False,False,True,False
+611,211.156.209.0/24,Jia No.8, North Lishi Road, Xicheng Dist.Beijing, China,24430,N/A,apnic,Business,False,False,True,False
+612,211.156.210.0/24,Jia No.8, North Lishi Road, Xicheng Dist.Beijing, China,24430,N/A,apnic,Business,False,False,True,False
+613,211.156.211.0/24,Jia No.8, North Lishi Road, Xicheng Dist.Beijing, China,24430,N/A,apnic,Business,False,False,True,False
+614,211.156.212.0/24,Jia No.8, North Lishi Road, Xicheng Dist.Beijing, China,24430,N/A,apnic,Business,False,False,True,False
+615,211.156.213.0/24,Jia No.8, North Lishi Road, Xicheng Dist.Beijing, China,24430,N/A,apnic,Business,False,False,True,False
+616,211.156.214.0/24,Jia No.8, North Lishi Road, Xicheng Dist.Beijing, China,24430,N/A,apnic,Business,False,False,True,False
+617,211.156.215.0/24,Jia No.8, North Lishi Road, Xicheng Dist.Beijing, China,24430,N/A,apnic,Business,False,False,True,False
+618,211.156.216.0/24,Jia No.8, North Lishi Road, Xicheng Dist.Beijing, China,24430,N/A,apnic,Business,False,False,True,False
+619,211.156.217.0/24,Jia No.8, North Lishi Road, Xicheng Dist.Beijing, China,24430,N/A,apnic,Business,False,False,True,False
+620,211.156.218.0/24,Jia No.8, North Lishi Road, Xicheng Dist.Beijing, China,24430,N/A,apnic,Business,False,False,True,False
+621,211.156.219.0/24,Jia No.8, North Lishi Road, Xicheng Dist.Beijing, China,24430,N/A,apnic,Business,False,False,True,False
+622,211.156.220.0/24,Jia No.8, North Lishi Road, Xicheng Dist.Beijing, China,24430,N/A,apnic,Business,False,False,True,False
+623,211.156.221.0/24,Jia No.8, North Lishi Road, Xicheng Dist.Beijing, China,24430,N/A,apnic,Business,False,False,True,False
+624,211.156.223.0/24,Jia No.8, North Lishi Road, Xicheng Dist.Beijing, China,24430,N/A,apnic,Business,False,False,True,False
+625,218.244.128.0/19,Hangzhou Alibaba Advertising Co.,Ltd.,37963,N/A,apnic,Business,False,False,True,False
+626,218.244.128.0/20,Hangzhou Alibaba Advertising Co.,Ltd.,37963,N/A,apnic,Business,False,False,True,False
+627,218.244.144.0/20,Hangzhou Alibaba Advertising Co.,Ltd.,37963,N/A,apnic,Business,False,False,True,False
+628,211.159.128.0/17,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+629,210.73.160.0/19,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+630,210.73.176.0/20,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+631,211.159.192.0/22,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+632,211.159.212.0/22,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+633,211.159.216.0/22,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+634,211.159.220.0/22,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+635,211.159.224.0/22,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+636,211.159.240.0/22,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+637,211.159.248.0/22,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+638,211.159.128.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+639,211.159.130.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+640,211.159.132.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+641,211.159.134.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+642,211.159.136.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+643,211.159.138.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+644,211.159.142.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+645,211.159.144.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+646,211.159.146.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+647,211.159.148.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+648,211.159.150.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+649,211.159.152.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+650,211.159.154.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+651,211.159.156.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+652,211.159.158.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+653,211.159.160.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+654,211.159.162.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+655,211.159.164.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+656,211.159.166.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+657,211.159.168.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+658,211.159.170.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+659,211.159.172.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+660,211.159.174.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+661,211.159.176.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+662,211.159.178.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+663,211.159.180.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+664,211.159.182.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+665,211.159.184.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+666,211.159.186.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+667,211.159.188.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+668,211.159.190.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+669,211.159.196.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+670,211.159.198.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+671,211.159.200.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+672,211.159.202.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+673,211.159.204.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+674,211.159.206.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+675,211.159.208.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+676,211.159.210.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+677,211.159.228.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+678,211.159.230.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+679,211.159.232.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+680,211.159.234.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+681,211.159.236.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+682,211.159.238.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+683,211.159.244.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+684,211.159.246.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+685,211.159.252.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+686,211.159.254.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+687,210.74.40.0/24,China Financial Certification Authority,58866,N/A,apnic,Business,False,False,True,False
+688,210.74.41.0/24,China Financial Certification Authority,58866,N/A,apnic,Business,False,False,True,False
+689,210.74.42.0/24,China Financial Certification Authority,58866,N/A,apnic,Business,False,False,True,False
+690,210.74.43.0/24,China Financial Certification Authority,58866,N/A,apnic,Business,False,False,True,False
+691,210.74.44.0/24,China Financial Certification Authority,58866,N/A,apnic,Business,False,False,True,False
+692,210.74.45.0/24,China Financial Certification Authority,58866,N/A,apnic,Business,False,False,True,False
+693,210.74.47.0/24,China Financial Certification Authority,58866,N/A,apnic,Business,False,False,True,False
+694,219.235.224.0/21,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+695,219.235.232.0/21,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+696,219.235.240.0/21,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+697,219.235.248.0/21,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+698,219.235.224.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+699,219.235.225.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+700,219.235.226.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+701,219.235.227.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+702,219.235.228.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+703,219.235.229.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+704,219.235.230.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+705,219.235.232.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+706,219.235.233.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+707,219.235.234.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+708,219.235.235.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+709,219.235.236.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+710,219.235.237.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+711,219.235.241.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+712,219.235.248.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+713,219.235.251.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+714,219.235.252.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+715,219.235.255.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+716,211.160.160.0/19,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+717,210.72.224.0/20,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+718,210.77.176.0/20,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+719,211.160.80.0/20,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+720,211.160.160.0/20,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+721,211.160.176.0/20,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+722,211.160.240.0/20,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+723,210.72.224.0/21,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+724,210.72.232.0/21,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+725,210.72.240.0/21,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+726,211.99.8.0/21,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+727,211.160.72.0/21,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+728,211.160.80.0/21,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+729,211.160.184.0/21,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+730,211.160.240.0/21,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+731,211.160.248.0/21,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+732,210.72.236.0/22,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+733,210.72.244.0/22,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+734,211.99.8.0/22,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+735,211.99.28.0/22,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+736,211.160.0.0/22,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+737,211.160.20.0/22,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+738,211.160.88.0/22,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+739,211.160.92.0/22,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+740,211.160.112.0/22,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+741,211.160.168.0/22,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+742,211.160.176.0/22,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+743,210.72.226.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+744,210.72.230.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+745,210.72.232.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+746,210.72.240.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+747,211.99.12.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+748,211.99.16.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+749,211.99.24.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+750,211.99.26.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+751,211.99.28.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+752,211.160.0.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+753,211.160.2.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+754,211.160.4.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+755,211.160.8.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+756,211.160.10.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+757,211.160.14.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+758,211.160.16.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+759,211.160.18.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+760,211.160.20.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+761,211.160.22.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+762,211.160.24.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+763,211.160.26.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+764,211.160.28.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+765,211.160.36.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+766,211.160.46.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+767,211.160.62.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+768,211.160.72.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+769,211.160.112.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+770,211.160.120.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+771,211.160.194.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+772,211.160.202.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+773,211.160.204.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+774,211.160.252.0/23,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+775,210.72.226.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+776,210.72.227.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+777,210.72.232.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+778,210.72.236.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+779,210.72.238.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+780,210.72.239.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+781,210.72.240.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+782,210.72.241.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+783,210.72.242.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+784,210.72.243.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+785,210.72.245.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+786,210.72.246.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+787,211.99.9.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+788,211.99.10.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+789,211.99.11.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+790,211.99.12.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+791,211.99.14.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+792,211.99.15.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+793,211.99.16.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+794,211.99.17.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+795,211.99.25.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+796,211.99.26.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+797,211.99.28.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+798,211.99.29.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+799,211.99.30.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+800,211.160.4.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+801,211.160.9.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+802,211.160.10.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+803,211.160.11.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+804,211.160.15.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+805,211.160.16.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+806,211.160.19.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+807,211.160.20.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+808,211.160.21.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+809,211.160.23.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+810,211.160.24.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+811,211.160.27.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+812,211.160.28.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+813,211.160.29.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+814,211.160.36.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+815,211.160.37.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+816,211.160.46.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+817,211.160.62.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+818,211.160.72.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+819,211.160.74.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+820,211.160.75.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+821,211.160.77.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+822,211.160.78.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+823,211.160.79.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+824,211.160.115.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+825,211.160.120.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+826,211.160.160.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+827,211.160.162.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+828,211.160.163.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+829,211.160.164.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+830,211.160.165.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+831,211.160.166.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+832,211.160.167.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+833,211.160.168.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+834,211.160.169.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+835,211.160.170.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+836,211.160.171.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+837,211.160.178.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+838,211.160.187.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+839,211.160.195.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+840,211.160.196.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+841,211.160.203.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+842,211.160.205.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+843,211.160.244.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+844,211.160.250.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+845,211.160.252.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+846,211.160.253.0/24,Beijing FibrLINK Networks Co.,Ltd.,9814,N/A,apnic,Business,False,False,True,False
+847,218.97.0.0/17,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+848,218.97.0.0/18,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+849,218.97.0.0/19,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+850,218.97.32.0/19,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+851,218.97.0.0/20,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+852,218.97.0.0/21,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+853,218.96.64.0/22,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+854,218.96.104.0/22,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+855,218.96.108.0/23,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+856,218.96.0.0/24,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+857,218.96.64.0/24,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+858,218.96.65.0/24,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+859,218.96.107.0/24,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+860,218.96.241.0/24,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+861,218.96.244.0/24,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+862,218.96.255.0/24,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+863,218.97.14.0/24,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+864,218.97.16.0/24,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+865,218.97.30.0/24,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+866,218.97.39.0/24,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+867,211.144.120.0/21,shanghai science and technology network communication limited company,17775,N/A,apnic,Education,False,False,True,False
+868,211.144.100.0/22,shanghai science and technology network communication limited company,17775,N/A,apnic,Education,False,False,True,False
+869,211.144.104.0/22,shanghai science and technology network communication limited company,17775,N/A,apnic,Education,False,False,True,False
+870,211.144.120.0/22,shanghai science and technology network communication limited company,17775,N/A,apnic,Education,False,False,True,False
+871,211.144.124.0/22,shanghai science and technology network communication limited company,17775,N/A,apnic,Education,False,False,True,False
+872,211.144.96.0/23,shanghai science and technology network communication limited company,17775,N/A,apnic,Education,False,False,True,False
+873,211.144.100.0/23,shanghai science and technology network communication limited company,17775,N/A,apnic,Education,False,False,True,False
+874,211.144.102.0/23,shanghai science and technology network communication limited company,17775,N/A,apnic,Education,False,False,True,False
+875,211.144.104.0/23,shanghai science and technology network communication limited company,17775,N/A,apnic,Education,False,False,True,False
+876,211.144.106.0/23,shanghai science and technology network communication limited company,17775,N/A,apnic,Education,False,False,True,False
+877,211.144.108.0/23,shanghai science and technology network communication limited company,17775,N/A,apnic,Education,False,False,True,False
+878,211.144.114.0/23,shanghai science and technology network communication limited company,17775,N/A,apnic,Education,False,False,True,False
+879,211.144.96.0/24,shanghai science and technology network communication limited company,17775,N/A,apnic,Education,False,False,True,False
+880,211.144.97.0/24,shanghai science and technology network communication limited company,17775,N/A,apnic,Education,False,False,True,False
+881,211.144.101.0/24,shanghai science and technology network communication limited company,17775,N/A,apnic,Education,False,False,True,False
+882,211.144.104.0/24,shanghai science and technology network communication limited company,17775,N/A,apnic,Education,False,False,True,False
+883,211.144.105.0/24,shanghai science and technology network communication limited company,17775,N/A,apnic,Education,False,False,True,False
+884,211.144.106.0/24,shanghai science and technology network communication limited company,17775,N/A,apnic,Education,False,False,True,False
+885,211.144.108.0/24,shanghai science and technology network communication limited company,17775,N/A,apnic,Education,False,False,True,False
+886,211.144.109.0/24,shanghai science and technology network communication limited company,17775,N/A,apnic,Education,False,False,True,False
+887,211.144.110.0/24,shanghai science and technology network communication limited company,17775,N/A,apnic,Education,False,False,True,False
+888,211.144.112.0/24,shanghai science and technology network communication limited company,17775,N/A,apnic,Education,False,False,True,False
+889,211.144.114.0/24,shanghai science and technology network communication limited company,17775,N/A,apnic,Education,False,False,True,False
+890,211.144.115.0/24,shanghai science and technology network communication limited company,17775,N/A,apnic,Education,False,False,True,False
+891,211.144.118.0/24,shanghai science and technology network communication limited company,17775,N/A,apnic,Education,False,False,True,False
+892,211.144.119.0/24,shanghai science and technology network communication limited company,17775,N/A,apnic,Education,False,False,True,False
+893,211.144.208.0/21,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+894,211.144.216.0/21,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+895,211.147.64.0/21,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+896,211.147.72.0/21,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+897,211.147.80.0/21,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+898,211.147.88.0/21,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+899,211.144.208.0/22,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+900,211.144.212.0/22,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+901,211.144.216.0/22,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+902,211.144.220.0/22,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+903,211.144.200.0/23,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+904,211.144.208.0/23,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+905,211.144.210.0/23,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+906,211.144.212.0/23,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+907,211.144.214.0/23,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+908,211.144.216.0/23,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+909,211.144.218.0/23,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+910,211.144.220.0/23,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+911,211.144.222.0/23,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+912,211.147.92.0/23,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+913,211.144.209.0/24,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+914,211.144.214.0/24,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+915,211.144.216.0/24,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+916,211.144.219.0/24,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+917,211.144.221.0/24,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+918,211.147.64.0/24,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+919,211.147.65.0/24,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+920,211.147.66.0/24,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+921,211.147.67.0/24,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+922,211.147.68.0/24,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+923,211.147.69.0/24,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+924,211.147.70.0/24,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+925,211.147.71.0/24,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+926,211.147.72.0/24,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+927,211.147.73.0/24,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+928,211.147.74.0/24,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+929,211.147.75.0/24,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+930,211.147.76.0/24,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+931,211.147.77.0/24,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+932,211.147.78.0/24,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+933,211.147.79.0/24,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+934,211.147.80.0/24,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+935,211.147.81.0/24,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+936,211.147.82.0/24,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+937,211.147.83.0/24,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+938,211.147.84.0/24,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+939,211.147.86.0/24,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+940,211.147.87.0/24,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+941,211.147.88.0/24,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+942,211.147.89.0/24,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+943,211.147.90.0/24,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+944,211.147.91.0/24,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+945,211.147.92.0/24,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+946,211.147.93.0/24,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+947,211.147.94.0/24,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+948,211.147.95.0/24,Shanghai Data Solution Co., Ltd.,23853,N/A,apnic,Cloud,False,False,True,False
+949,218.244.128.0/19,Hangzhou Alibaba Advertising Co.,Ltd.,37963,N/A,apnic,Business,False,False,True,False
+950,218.244.128.0/20,Hangzhou Alibaba Advertising Co.,Ltd.,37963,N/A,apnic,Business,False,False,True,False
+951,218.244.144.0/20,Hangzhou Alibaba Advertising Co.,Ltd.,37963,N/A,apnic,Business,False,False,True,False
+952,218.244.128.0/19,Hangzhou Alibaba Advertising Co.,Ltd.,37963,N/A,apnic,Business,False,False,True,False
+953,218.244.128.0/20,Hangzhou Alibaba Advertising Co.,Ltd.,37963,N/A,apnic,Business,False,False,True,False
+954,218.244.144.0/20,Hangzhou Alibaba Advertising Co.,Ltd.,37963,N/A,apnic,Business,False,False,True,False
+955,211.159.128.0/17,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+956,210.73.160.0/19,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+957,210.73.176.0/20,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+958,211.159.192.0/22,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+959,211.159.212.0/22,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+960,211.159.216.0/22,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+961,211.159.220.0/22,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+962,211.159.224.0/22,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+963,211.159.240.0/22,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+964,211.159.248.0/22,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+965,211.159.128.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+966,211.159.130.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+967,211.159.132.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+968,211.159.134.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+969,211.159.136.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+970,211.159.138.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+971,211.159.142.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+972,211.159.144.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+973,211.159.146.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+974,211.159.148.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+975,211.159.150.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+976,211.159.152.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+977,211.159.154.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+978,211.159.156.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+979,211.159.158.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+980,211.159.160.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+981,211.159.162.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+982,211.159.164.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+983,211.159.166.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+984,211.159.168.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+985,211.159.170.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+986,211.159.172.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+987,211.159.174.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+988,211.159.176.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+989,211.159.178.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+990,211.159.180.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+991,211.159.182.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+992,211.159.184.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+993,211.159.186.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+994,211.159.188.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+995,211.159.190.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+996,211.159.196.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+997,211.159.198.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+998,211.159.200.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+999,211.159.202.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1000,211.159.204.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1001,211.159.206.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1002,211.159.208.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1003,211.159.210.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1004,211.159.228.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1005,211.159.230.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1006,211.159.232.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1007,211.159.234.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1008,211.159.236.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1009,211.159.238.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1010,211.159.244.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1011,211.159.246.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1012,211.159.252.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1013,211.159.254.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1014,210.76.74.0/24,5/F, Zhujiang Yide Building, 362 Dongfeng Middle Road, Yuexiu District,,137798,N/A,apnic,Business,False,False,True,False
+1015,210.76.77.0/24,5/F, Zhujiang Yide Building, 362 Dongfeng Middle Road, Yuexiu District,,137798,N/A,apnic,Business,False,False,True,False
+1016,210.76.78.0/24,5/F, Zhujiang Yide Building, 362 Dongfeng Middle Road, Yuexiu District,,137798,N/A,apnic,Business,False,False,True,False
+1017,210.76.82.0/24,5/F, Zhujiang Yide Building, 362 Dongfeng Middle Road, Yuexiu District,,137798,N/A,apnic,Business,False,False,True,False
+1018,210.76.85.0/24,5/F, Zhujiang Yide Building, 362 Dongfeng Middle Road, Yuexiu District,,137798,N/A,apnic,Business,False,False,True,False
+1019,219.235.224.0/21,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+1020,219.235.232.0/21,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+1021,219.235.240.0/21,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+1022,219.235.248.0/21,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+1023,219.235.224.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+1024,219.235.225.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+1025,219.235.226.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+1026,219.235.227.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+1027,219.235.228.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+1028,219.235.229.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+1029,219.235.230.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+1030,219.235.232.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+1031,219.235.233.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+1032,219.235.234.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+1033,219.235.235.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+1034,219.235.236.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+1035,219.235.237.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+1036,219.235.241.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+1037,219.235.248.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+1038,219.235.251.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+1039,219.235.252.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+1040,219.235.255.0/24,SHENZHEN NOVA TECHNOLOGIES DEVELOPMENT.,LTD.,9809,N/A,apnic,Business,False,False,True,False
+1041,211.148.192.0/19,ShenZhen Topway Video Communication Co. Ltd,17962,N/A,apnic,ISP,False,False,True,False
+1042,219.232.160.0/19,ShenZhen Topway Video Communication Co. Ltd,17962,N/A,apnic,ISP,False,False,True,False
+1043,219.234.96.0/19,ShenZhen Topway Video Communication Co. Ltd,17962,N/A,apnic,ISP,False,False,True,False
+1044,219.234.112.0/20,ShenZhen Topway Video Communication Co. Ltd,17962,N/A,apnic,ISP,False,False,True,False
+1045,219.232.187.0/24,ShenZhen Topway Video Communication Co. Ltd,17962,N/A,apnic,ISP,False,False,True,False
+1046,218.97.0.0/17,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+1047,218.97.0.0/18,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+1048,218.97.0.0/19,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+1049,218.97.32.0/19,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+1050,218.97.0.0/20,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+1051,218.97.0.0/21,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+1052,218.96.64.0/22,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+1053,218.96.104.0/22,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+1054,218.96.108.0/23,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+1055,218.96.0.0/24,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+1056,218.96.64.0/24,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+1057,218.96.65.0/24,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+1058,218.96.107.0/24,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+1059,218.96.241.0/24,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+1060,218.96.244.0/24,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+1061,218.96.255.0/24,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+1062,218.97.14.0/24,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+1063,218.97.16.0/24,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+1064,218.97.30.0/24,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+1065,218.97.39.0/24,China Enterprise ICT Solutions Limited,10212,N/A,apnic,ISP,False,False,True,False
+1066,211.148.20.0/22,21vianet(China) Inc.,17428,N/A,apnic,Business,False,False,True,False
+1067,211.148.28.0/22,21vianet(China) Inc.,17428,N/A,apnic,Business,False,False,True,False
+1068,211.148.18.0/23,21vianet(China) Inc.,17428,N/A,apnic,Business,False,False,True,False
+1069,211.148.20.0/23,21vianet(China) Inc.,17428,N/A,apnic,Business,False,False,True,False
+1070,211.148.24.0/23,21vianet(China) Inc.,17428,N/A,apnic,Business,False,False,True,False
+1071,211.148.30.0/23,21vianet(China) Inc.,17428,N/A,apnic,Business,False,False,True,False
+1072,211.148.17.0/24,21vianet(China) Inc.,17428,N/A,apnic,Business,False,False,True,False
+1073,211.148.22.0/24,21vianet(China) Inc.,17428,N/A,apnic,Business,False,False,True,False
+1074,211.148.27.0/24,21vianet(China) Inc.,17428,N/A,apnic,Business,False,False,True,False
+1075,211.148.28.0/24,21vianet(China) Inc.,17428,N/A,apnic,Business,False,False,True,False
+1076,218.244.128.0/19,Hangzhou Alibaba Advertising Co.,Ltd.,37963,N/A,apnic,Business,False,False,True,False
+1077,218.244.128.0/20,Hangzhou Alibaba Advertising Co.,Ltd.,37963,N/A,apnic,Business,False,False,True,False
+1078,218.244.144.0/20,Hangzhou Alibaba Advertising Co.,Ltd.,37963,N/A,apnic,Business,False,False,True,False
+1079,203.119.26.0/24,China Internet Network Infomation Center,24409,N/A,apnic,Business,False,False,True,False
+1080,203.119.27.0/24,China Internet Network Infomation Center,24409,N/A,apnic,Business,False,False,True,False
+1081,203.119.28.0/24,China Internet Network Infomation Center,24409,N/A,apnic,Business,False,False,True,False
+1082,203.119.29.0/24,China Internet Network Infomation Center,24409,N/A,apnic,Business,False,False,True,False
+1083,203.119.30.0/24,China Internet Network Infomation Center,24409,N/A,apnic,Business,False,False,True,False
+1084,203.119.26.0/24,China Internet Network Infomation Center,24406,N/A,apnic,Business,False,False,True,False
+1085,203.119.27.0/24,China Internet Network Infomation Center,24406,N/A,apnic,Business,False,False,True,False
+1086,203.119.28.0/24,China Internet Network Infomation Center,24406,N/A,apnic,Business,False,False,True,False
+1087,203.119.29.0/24,China Internet Network Infomation Center,24406,N/A,apnic,Business,False,False,True,False
+1088,203.119.30.0/24,China Internet Network Infomation Center,24406,N/A,apnic,Business,False,False,True,False
+1089,203.119.31.0/24,China Internet Network Infomation Center,24406,N/A,apnic,Business,False,False,True,False
+1090,211.159.128.0/17,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1091,210.73.160.0/19,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1092,210.73.176.0/20,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1093,211.159.192.0/22,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1094,211.159.212.0/22,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1095,211.159.216.0/22,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1096,211.159.220.0/22,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1097,211.159.224.0/22,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1098,211.159.240.0/22,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1099,211.159.248.0/22,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1100,211.159.128.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1101,211.159.130.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1102,211.159.132.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1103,211.159.134.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1104,211.159.136.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1105,211.159.138.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1106,211.159.142.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1107,211.159.144.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1108,211.159.146.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1109,211.159.148.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1110,211.159.150.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1111,211.159.152.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1112,211.159.154.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1113,211.159.156.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1114,211.159.158.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1115,211.159.160.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1116,211.159.162.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1117,211.159.164.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1118,211.159.166.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1119,211.159.168.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1120,211.159.170.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1121,211.159.172.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1122,211.159.174.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1123,211.159.176.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1124,211.159.178.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1125,211.159.180.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1126,211.159.182.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1127,211.159.184.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1128,211.159.186.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1129,211.159.188.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1130,211.159.190.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1131,211.159.196.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1132,211.159.198.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1133,211.159.200.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1134,211.159.202.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1135,211.159.204.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1136,211.159.206.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1137,211.159.208.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1138,211.159.210.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1139,211.159.228.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1140,211.159.230.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1141,211.159.232.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1142,211.159.234.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1143,211.159.236.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1144,211.159.238.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1145,211.159.244.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1146,211.159.246.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1147,211.159.252.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False
+1148,211.159.254.0/23,Shenzhen Tencent Computer Systems Company Limited,45090,N/A,apnic,ISP,False,False,True,False

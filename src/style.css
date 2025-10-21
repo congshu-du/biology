@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: HYQiHei55J;
+  src: url("./assets/fonts/HYQiHei-55J.ttf");
+}
+
+/* @font-face {
+  font-family: HYZhongHeiJ;
+  src: url("./assets/fonts/HYZhongHeiJ.ttf");
+} */
+
+body {
+  margin: 0;
+}
+
+:root {
+  --primary-color: #1a59b0; /* CNCB-inspired primary color */
+}
+
+a {
+  color: var(--primary-color);
+}
+
+svg {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+@layer utilities {
+  .scrollbar-w-0::-webkit-scrollbar {
+    width: 0;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+  border-radius: 4px; /* 可以添加圆角 */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

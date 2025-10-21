@@ -1,0 +1,52 @@
+stages:
+  - deploy
+
+# 缓存依赖
+cache:
+  key: ${CI_COMMIT_REF_SLUG} # 基于分支名缓存
+  paths:
+    - node_modules/
+
+variables:
+  IMAGE: harbor.fir.ac.cn/library/node:20.17.0
+  DEVIP: 10.10.24.103
+  MAINIP: 10.10.24.100
+  HTTPSCERT: 192.168.1.251
+
+# 部署阶段
+deploy:
+  stage: deploy
+  image: $IMAGE
+  before_script:
+    - echo "Starting deployment..."
+    - "which ssh-agent || ( apk update && apk add openssh-client )"
+    - eval $(ssh-agent -s)
+    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+
+  script:
+    - npm i
+    - npm run build
+    - |
+      if [[ "$CI_COMMIT_REF_NAME" == "dev" ]]; then
+        echo "Deploying to development environment..."
+        ssh-keyscan $DEVIP >> ~/.ssh/known_hosts
+        chmod 644 ~/.ssh/known_hosts
+        scp -r dist cnic@$DEVIP:/tmp
+        ssh cnic@$DEVIP "rm -rf /home/cnic/ducongshu/fir.ac.cn/ && scp -r root@$HTTPSCERT:/etc/letsencrypt/live/fir.ac.cn/ /home/cnic/ducongshu/fir.ac.cn/"
+        ssh cnic@$DEVIP "rm -rf /var/www/html/fronted && mv -u /tmp/dist /var/www/html/fronted"
+      elif [[ "$CI_COMMIT_REF_NAME" == "main" ]]; then
+        echo "Deploying to production environment..."
+        ssh-keyscan $MAINIP >> ~/.ssh/known_hosts
+        chmod 644 ~/.ssh/known_hosts
+        scp -r dist cnic@$MAINIP:/tmp
+        ssh cnic@$MAINIP "rm -rf /home/cnic/ducongshu/fir.ac.cn/ && scp -r root@$HTTPSCERT:/etc/letsencrypt/live/fir.ac.cn/ /home/cnic/ducongshu/fir.ac.cn/"
+        ssh cnic@$MAINIP "rm -rf /var/www/html/fronted && mv -u /tmp/dist /var/www/html/fronted"
+      else
+        echo "Branch not configured for deployment. Skipping..."
+        exit 0
+      fi
+  only:
+    - dev
+    - main
