@@ -3,8 +3,8 @@ import os
 import time
 
 try:
-    subprocess.run(["nvm", "use", "18.20.4"], check=True)
-    time.sleep(1)
+    # subprocess.run(["nvm", "use", "18.20.4"], check=True)
+    # time.sleep(1)
     node_path = subprocess.check_output(["where", "node"], text=True).strip()
     npm_cmd = os.path.join(os.path.dirname(node_path), "npm.cmd")
 

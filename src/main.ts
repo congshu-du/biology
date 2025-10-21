@@ -11,8 +11,8 @@ import "vue-virtual-scroller/dist/vue-virtual-scroller.css";
 
 const app = createApp(App);
 
-if (!localStorage.getItem("theme")) {
-  localStorage.setItem("theme", "dark");
+if (localStorage.getItem("theme")) {
+  localStorage.removeItem("theme");
 }
 
 app.use(Antd).use(router).use(createPinia()).use(i18n).mount("#app");

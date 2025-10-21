@@ -3,12 +3,11 @@ import { Avatar, Divider, Dropdown, Menu, Space } from "ant-design-vue";
 import { computed, defineComponent } from "vue";
 import { token } from "@/utils/theme";
 // import LiantongSvg from "@/assets/svgs/liantong.svg";
-import logo from "@/assets/img/logo.png";
+import logo from "@/assets/img/logo2.png";
 import styled, { tw } from "@vue-styled-components/core";
 import { useRoute, useRouter } from "vue-router";
 import { IconSvg } from "@/components/icon/Index";
 import { useFullScreen } from "@/store";
-import { c } from "node_modules/vite/dist/node/types.d-aGj9QkWt";
 
 const SwitchCom = defineComponent<{ value: boolean; onChange: (e: boolean) => void; token: any }>(
   ({ value, onChange, token }) => {
@@ -111,7 +110,7 @@ const Header = defineComponent(() => {
     //     { key: "/resources/prefix", label: "IP前缀RPKI状态" },
     //   ],
     // },
-    { key: "/digital-twin", label: "数字孪生" },
+    { key: "/digital-twin", label: "处置演练" },
   ];
 
   const changePath = (path: string) => {
@@ -188,7 +187,7 @@ const Header = defineComponent(() => {
             onClick={() => (fullScreen.full = true)}
           />
           <Divider type="vertical" class="mx-1" />
-          <SwitchCom
+          {/* <SwitchCom
             token={token}
             value={localStorage.getItem("theme") === "dark"}
             onChange={(e) => {
@@ -196,7 +195,7 @@ const Header = defineComponent(() => {
               window.location.reload();
             }}
           />
-          <Divider type="vertical" class="mx-1" />
+          <Divider type="vertical" class="mx-1" /> */}
           <Dropdown
             placement="bottomLeft"
             open={false}
