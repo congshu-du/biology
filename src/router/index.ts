@@ -49,6 +49,7 @@ const routes: RouteRecordRaw[] = [
           { path: "detection", component: () => import("@/pages/dataPlatform/Detection.page") },
         ],
       },
+
       // {
       //   path: "/routeData",
       //   children: [
@@ -87,6 +88,13 @@ const routes: RouteRecordRaw[] = [
       {
         path: "/digital-twin",
         component: () => import("@/pages/twin/Index.page"),
+      },
+      {
+        path: "/setting",
+        children: [
+          { path: "", redirect: "/setting/probe" },
+          { path: "probe", component: () => import("@/pages/setting/Probe.page") },
+        ],
       },
     ],
   },
