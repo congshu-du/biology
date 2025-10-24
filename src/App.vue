@@ -22,7 +22,7 @@ const themeType = localStorage.getItem("theme") || "light";
     :theme="{
       algorithm: themeType === 'light' ? theme.defaultAlgorithm : theme.darkAlgorithm,
       token: {
-        colorPrimary: '#1890ff',
+        colorPrimary: '#086ec1',
         fontFamily: 'HYQiHei55J',
 
         ...(themeType === 'light' ? lightConfig : darkConfig),

@@ -113,7 +113,7 @@ const Header = defineComponent(() => {
     { key: "/digital-twin", label: "处置演练" },
     {
       key: "/setting",
-      label: "设置",
+      label: "系统设置",
       children: [{ key: "/setting/probe", label: "探针列表" }],
     },
   ];

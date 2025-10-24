@@ -7,7 +7,7 @@ export const themeType = localStorage.getItem("theme") || "light";
 const { defaultAlgorithm, darkAlgorithm, defaultSeed } = theme;
 
 // 使用与国家生物信息中心门户（CNCB）相近的主色调，保持 Ant Design 和 Tailwind 的色彩一致
-const CNCB_PRIMARY = "#1a59b0";
+const CNCB_PRIMARY = "#086ec1";
 
 export const token = (
   themeType === "light"
