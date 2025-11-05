@@ -1,5 +1,5 @@
-import { Button, Modal, Space, Table, Tag, message } from "ant-design-vue";
-import { defineComponent, ref, reactive } from "vue";
+import { Button, Space, Table, Tag, message } from "ant-design-vue";
+import { defineComponent, ref } from "vue";
 import { ColumnProps } from "ant-design-vue/es/table";
 import dayjs from "dayjs";
 import { token } from "@/utils/theme";
@@ -7,15 +7,15 @@ import { token } from "@/utils/theme";
 interface ProbeType {
   id: string;
   name: string;
-  service: string;
-  status: "running" | "stopped" | "error";
-  interval: number; // 执行间隔（秒）
-  lastExecuteTime?: string;
+  ip: string;
+  location: string; // 位置
+  dataCenter: string; // 机房
+  connectivity: "connected" | "disconnected"; // 连通性
+  status: "detecting" | "stopped"; // 状态：持续探测中、未开启探测
   createTime: string;
 }
 
 const ProbePage = defineComponent(() => {
-  const showModal = ref(false);
   const loading = ref(false);
 
   // 探针数据
@@ -23,126 +23,125 @@ const ProbePage = defineComponent(() => {
     {
       id: "1",
       name: "探针1",
-      service: "192.168.1.100",
-      status: "running",
-      interval: 60,
-      lastExecuteTime: "2024-01-15 10:30:00",
+      ip: "192.168.1.100",
+      location: "北京",
+      dataCenter: "北京数据中心A",
+      connectivity: "connected",
+      status: "detecting",
       createTime: "2024-01-15 09:00:00",
     },
     {
       id: "2",
       name: "探针2",
-      service: "192.168.1.101",
+      ip: "192.168.1.101",
+      location: "上海",
+      dataCenter: "上海数据中心B",
+      connectivity: "connected",
       status: "stopped",
-      interval: 300,
-      lastExecuteTime: "2024-01-15 08:00:00",
       createTime: "2024-01-15 08:00:00",
     },
     {
       id: "3",
       name: "探针3",
-      service: "192.168.1.102",
-      status: "running",
-      interval: 120,
-      lastExecuteTime: "2024-01-15 10:25:00",
+      ip: "192.168.1.102",
+      location: "广州",
+      dataCenter: "广州数据中心C",
+      connectivity: "connected",
+      status: "detecting",
       createTime: "2024-01-15 09:30:00",
     },
     {
       id: "4",
       name: "探针4",
-      service: "192.168.1.103",
-      status: "error",
-      interval: 180,
-      lastExecuteTime: "2024-01-15 07:30:00",
+      ip: "192.168.1.103",
+      location: "深圳",
+      dataCenter: "深圳数据中心D",
+      connectivity: "disconnected",
+      status: "stopped",
       createTime: "2024-01-15 07:00:00",
     },
     {
       id: "5",
       name: "探针5",
-      service: "192.168.1.104",
-      status: "running",
-      interval: 90,
-      lastExecuteTime: "2024-01-15 10:35:00",
+      ip: "192.168.1.104",
+      location: "杭州",
+      dataCenter: "杭州数据中心E",
+      connectivity: "connected",
+      status: "detecting",
       createTime: "2024-01-15 09:15:00",
     },
     {
       id: "6",
       name: "探针6",
-      service: "192.168.1.105",
+      ip: "192.168.1.105",
+      location: "成都",
+      dataCenter: "成都数据中心F",
+      connectivity: "connected",
       status: "stopped",
-      interval: 240,
-      lastExecuteTime: "2024-01-15 06:00:00",
       createTime: "2024-01-15 06:00:00",
     },
     {
       id: "7",
       name: "探针7",
-      service: "192.168.1.106",
-      status: "running",
-      interval: 150,
-      lastExecuteTime: "2024-01-15 10:40:00",
+      ip: "192.168.1.106",
+      location: "武汉",
+      dataCenter: "武汉数据中心G",
+      connectivity: "connected",
+      status: "detecting",
       createTime: "2024-01-15 09:45:00",
     },
     {
       id: "8",
       name: "探针8",
-      service: "192.168.1.107",
-      status: "running",
-      interval: 200,
-      lastExecuteTime: "2024-01-15 10:20:00",
+      ip: "192.168.1.107",
+      location: "南京",
+      dataCenter: "南京数据中心H",
+      connectivity: "connected",
+      status: "detecting",
       createTime: "2024-01-15 09:20:00",
     },
     {
       id: "9",
       name: "探针9",
-      service: "192.168.1.108",
+      ip: "192.168.1.108",
+      location: "西安",
+      dataCenter: "西安数据中心I",
+      connectivity: "disconnected",
       status: "stopped",
-      interval: 360,
-      lastExecuteTime: "2024-01-15 05:30:00",
       createTime: "2024-01-15 05:30:00",
     },
     {
       id: "10",
       name: "探针10",
-      service: "192.168.1.109",
-      status: "running",
-      interval: 75,
-      lastExecuteTime: "2024-01-15 10:45:00",
+      ip: "192.168.1.109",
+      location: "重庆",
+      dataCenter: "重庆数据中心J",
+      connectivity: "connected",
+      status: "detecting",
       createTime: "2024-01-15 10:00:00",
     },
   ]);
 
-  // 新增探针表单数据
-  const newProbe = reactive({
-    name: "",
-    service: "",
-    interval: 60,
-  });
-
-  // 生成下一个探针编号
-  const getNextProbeNumber = () => {
-    const existingNumbers = probeList.value.map((p) => parseInt(p.name.replace("探针", "")));
-    const maxNumber = existingNumbers.length > 0 ? Math.max(...existingNumbers) : 0;
-    return maxNumber + 1;
+  // 连通性标签颜色映射
+  const connectivityColorMap = {
+    connected: token.colorSuccess,
+    disconnected: token.colorError,
   };
 
-  // 更新新增探针时的名称
-  const showAddModal = () => {
-    newProbe.name = `探针${getNextProbeNumber()}`;
-    showModal.value = true;
+  const connectivityTextMap = {
+    connected: "已联通",
+    disconnected: "未联通",
   };
 
   // 状态标签颜色映射
   const statusColorMap = {
-    running: token.colorSuccess,
+    detecting: token.colorPrimary,
     stopped: "default",
-    error: token.colorError,
   };
 
   const statusTextMap = {
-    running: "运行中",
-    stopped: "已停止",
-    error: "错误",
+    detecting: "持续探测中",
+    stopped: "未开启探测",
   };
 
   // 开启探针
@@ -154,8 +153,7 @@ const ProbePage = defineComponent(() => {
 
       const probeIndex = probeList.value.findIndex((p) => p.id === probe.id);
       if (probeIndex !== -1) {
-        probeList.value[probeIndex].status = "running";
-        probeList.value[probeIndex].lastExecuteTime = dayjs().format("YYYY-MM-DD HH:mm:ss");
+        probeList.value[probeIndex].status = "detecting";
         message.success(`探针 "${probe.name}" 已启动`);
       }
     } catch (error) {
@@ -184,87 +182,63 @@ const ProbePage = defineComponent(() => {
     }
   };
 
-  // 添加探针
-  const addProbe = async () => {
-    if (!newProbe.service) {
-      message.error("请填写IP地址");
-      return;
-    }
+  // 查看详情
+  const viewDetail = (probe: ProbeType) => {
+    message.info(`查看探针 "${probe.name}" 的详情`);
+    // TODO: 实现详情页面
+  };
 
-    try {
-      loading.value = true;
-      // 模拟API调用
-      await new Promise((resolve) => setTimeout(resolve, 1000));
-
-      const newProbeItem: ProbeType = {
-        id: Date.now().toString(),
-        name: newProbe.name,
-        service: newProbe.service,
-        status: "stopped",
-        interval: newProbe.interval,
-        createTime: dayjs().format("YYYY-MM-DD HH:mm:ss"),
-      };
-
-      probeList.value.unshift(newProbeItem);
-
-      // 重置表单
-      newProbe.name = `探针${getNextProbeNumber()}`;
-      newProbe.service = "";
-      newProbe.interval = 60;
-
-      showModal.value = false;
-      message.success("探针添加成功");
-    } catch (error) {
-      message.error(`添加探针失败: ${error}`);
-    } finally {
-      loading.value = false;
-    }
+  // 设置探针
+  const settingProbe = (probe: ProbeType) => {
+    message.info(`设置探针 "${probe.name}"`);
+    // TODO: 实现设置功能
   };
 
   const columns: ColumnProps<ProbeType>[] = [
     {
       title: "探针名称",
       dataIndex: "name",
-      width: 150,
+      width: 120,
       ellipsis: true,
     },
     {
-      title: "IP地址",
-      dataIndex: "service",
+      title: "IP",
+      dataIndex: "ip",
       width: 140,
       ellipsis: true,
+    },
+    {
+      title: "位置",
+      dataIndex: "location",
+      width: 100,
+      ellipsis: true,
+    },
+    {
+      title: "机房",
+      dataIndex: "dataCenter",
+      width: 180,
+      ellipsis: true,
+    },
+    {
+      title: "连通性",
+      dataIndex: "connectivity",
+      width: 100,
       customRender: ({ text }) => {
-        return text || "-";
+        return <Tag color={connectivityColorMap[text]}>{connectivityTextMap[text]}</Tag>;
       },
     },
     {
       title: "状态",
       dataIndex: "status",
-      width: 100,
+      width: 120,
       customRender: ({ text }) => {
         return <Tag color={statusColorMap[text]}>{statusTextMap[text]}</Tag>;
       },
     },
     {
-      title: "执行间隔",
-      dataIndex: "interval",
-      width: 100,
-      customRender: ({ text }) => {
-        return `${text}秒`;
-      },
-    },
-    {
-      title: "最近执行时间",
-      dataIndex: "lastExecuteTime",
-      width: 200,
-      customRender: ({ text }) => {
-        return text || "-";
-      },
-    },
-    {
       title: "创建时间",
       dataIndex: "createTime",
-      width: 200,
+      width: 180,
       customRender: ({ text }) => {
         return dayjs(text).format("YYYY-MM-DD HH:mm:ss");
       },
@@ -272,11 +246,11 @@ const ProbePage = defineComponent(() => {
     {
       title: "操作",
       dataIndex: "operation",
-      width: 150,
+      width: 200,
       fixed: "right",
       customRender: ({ record }) => (
         <Space>
-          {record.status === "running" ? (
+          {record.status === "detecting" ? (
             <Button type="primary" danger size="small" onClick={() => stopProbe(record)} loading={loading.value}>
               停止
             </Button>
@@ -285,6 +259,12 @@ const ProbePage = defineComponent(() => {
               启动
             </Button>
           )}
+          <Button size="small" onClick={() => settingProbe(record)}>
+            设置
+          </Button>
+          <Button size="small" onClick={() => viewDetail(record)}>
+            详情
+          </Button>
         </Space>
       ),
     },
@@ -295,9 +275,6 @@ const ProbePage = defineComponent(() => {
       <div class="p-4">
         <div class="flex items-center justify-between mb-4">
           <h2 class="text-xl font-semibold">探针列表</h2>
-          <Button type="primary" onClick={showAddModal}>
-            添加探针
-          </Button>
         </div>
       </div>
 
@@ -312,56 +289,6 @@ const ProbePage = defineComponent(() => {
           // scroll={{ y: 500 }}
         />
       </div>
-
-      {/* 添加探针弹窗 */}
-      <Modal
-        title="添加探针"
-        open={showModal.value}
-        onCancel={() => (showModal.value = false)}
-        footer={null}
-        width={600}
-      >
-        <div class="space-y-4">
-          <div>
-            <label class="block text-sm font-medium mb-1">探针名称</label>
-            <input
-              type="text"
-              class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 bg-gray-50"
-              v-model={[newProbe.name, "value"]}
-              placeholder="自动生成"
-              readonly
-            />
-          </div>
-
-          <div>
-            <label class="block text-sm font-medium mb-1">IP地址</label>
-            <input
-              type="text"
-              class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-              v-model={[newProbe.service, "value"]}
-              placeholder="请输入IP地址"
-            />
-          </div>
-
-          <div>
-            <label class="block text-sm font-medium mb-1">执行间隔（秒）</label>
-            <input
-              type="number"
-              class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-              v-model={[newProbe.interval, "value"]}
-              min="10"
-              step="10"
-            />
-          </div>
-
-          <div class="flex justify-end space-x-2 pt-4">
-            <Button onClick={() => (showModal.value = false)}>取消</Button>
-            <Button type="primary" onClick={addProbe} loading={loading.value}>
-              添加
-            </Button>
-          </div>
-        </div>
-      </Modal>
     </div>
   );
 });

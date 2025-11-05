@@ -307,19 +307,15 @@ const ChinaMap = defineComponent<ChinaMapProps>((props) => {
               <strong style="color: #333; font-size: 14px;">${params.name}</strong>
               <div style="display: flex; flex-direction: column; gap: 8px; margin-top: 8px;">
               <div style="display: flex; gap: 8px;">
-                <div style="flex: 1; background: #fee2e2; color: #dc2626; border-radius: 6px; padding: 8px 0; text-align: center;">
-                <div style="font-size: 12px; color: #666;">下载总量</div>
-                <div style="font-weight: bold; font-size: 16px;">${metrics.totalDownload} GB</div>
-                </div>
-                <div style="flex: 1; background: #d1fae5; color: #059669; border-radius: 6px; padding: 8px 0; text-align: center;">
-                <div style="font-size: 12px; color: #666;">网络延迟</div>
-                <div style="font-weight: bold; font-size: 16px;">${metrics.latency} ms</div>
-                </div>
-              </div>
-              <div style="display: flex; gap: 8px;">
                 <div style="flex: 1; background: #fef3c7; color: #ea580c; border-radius: 6px; padding: 8px 0; text-align: center;">
                 <div style="font-size: 12px; color: #666;">下载速度</div>
                 <div style="font-weight: bold; font-size: 16px;">${metrics.downloadSpeed} MB/s</div>
+                </div>
+              </div>
+              <div style="display: flex; gap: 8px;">
+                <div style="flex: 1; background: #d1fae5; color: #059669; border-radius: 6px; padding: 8px 0; text-align: center;">
+                <div style="font-size: 12px; color: #666;">网络延迟</div>
+                <div style="font-weight: bold; font-size: 16px;">${metrics.latency} ms</div>
                 </div>
                 <div style="flex: 1; background: #ede9fe; color: #7c3aed; border-radius: 6px; padding: 8px 0; text-align: center;">
                 <div style="font-size: 12px; color: #666;">丢包率</div>

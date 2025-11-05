@@ -2,7 +2,7 @@ import { defineComponent, ref } from "vue";
 import WorldMap from "./components/WorldMap";
 import ChinaMap from "./components/ChinaMap";
 import { Card, Col, Row, Select, Space, Statistic } from "ant-design-vue";
-import { AudioOutlined, CloudDownloadOutlined, DownloadOutlined, UserOutlined } from "@ant-design/icons-vue";
+import { ExclamationCircleOutlined, GlobalOutlined, WifiOutlined, EnvironmentOutlined } from "@ant-design/icons-vue";
 import DownloadSort from "./components/DownloadSort";
 import AlertSort from "./components/AlertSort";
 
@@ -27,56 +27,56 @@ const Dashboard = defineComponent(() => {
         <Col span={6}>
           <Card class="h-30 bg-white flex flex-col justify-center items-center shadow-md">
             <Statistic
-              title={<div style={{ textAlign: "center" }}>告警总数</div>}
+              title={<div style={{ textAlign: "center" }}>告警数量</div>}
               value={11}
               prefix={
                 <span style={{ fontSize: 24, color: "#faad14" }}>
-                  <CloudDownloadOutlined />
+                  <ExclamationCircleOutlined />
                 </span>
               }
-              suffix={<span style={{ fontWeight: 500, color: "#888" }}>次</span>}
+              suffix={<span style={{ fontWeight: 500, color: "#888" }}>个</span>}
             />
           </Card>
         </Col>
         <Col span={6}>
           <Card class="h-30 bg-white flex flex-col justify-center items-center shadow-md">
             <Statistic
-              title={<div style={{ textAlign: "center" }}>国际下载总数</div>}
-              value={893}
+              title={<div style={{ textAlign: "center" }}>探针总数</div>}
+              value={156}
               prefix={
                 <span style={{ fontSize: 24, color: "#1890ff" }}>
-                  <CloudDownloadOutlined />
+                  <GlobalOutlined />
                 </span>
               }
-              suffix={<span style={{ fontWeight: 500, color: "#888" }}>TB</span>}
+              suffix={<span style={{ fontWeight: 500, color: "#888" }}>个</span>}
             />
           </Card>
         </Col>
         <Col span={6}>
           <Card class="h-30 bg-white flex flex-col justify-center items-center shadow-md">
             <Statistic
-              title={<div style={{ textAlign: "center" }}>国内下载次数</div>}
-              value={112893}
+              title={<div style={{ textAlign: "center" }}>国际网络延迟/丢包率</div>}
+              value={25}
               prefix={
                 <span style={{ fontSize: 24, color: "#52c41a" }}>
-                  <DownloadOutlined />
+                  <WifiOutlined />
                 </span>
               }
-              suffix={<span style={{ fontWeight: 500, color: "#888" }}>次</span>}
+              suffix={<span style={{ fontWeight: 500, color: "#888" }}>ms / 0.12%</span>}
             />
           </Card>
         </Col>
         <Col span={6}>
           <Card class="h-30 bg-white flex flex-col justify-center items-center shadow-md">
             <Statistic
-              title={<div style={{ textAlign: "center" }}>国内用户数</div>}
-              value={2893}
+              title={<div style={{ textAlign: "center" }}>国内网络延迟/丢包率</div>}
+              value={15}
               prefix={
                 <span style={{ fontSize: 24, color: "#eb2f96" }}>
-                  <UserOutlined />
+                  <EnvironmentOutlined />
                 </span>
               }
-              suffix={<span style={{ fontWeight: 500, color: "#888" }}>人</span>}
+              suffix={<span style={{ fontWeight: 500, color: "#888" }}>ms / 0.08%</span>}
             />
           </Card>
         </Col>

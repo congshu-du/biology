@@ -22,25 +22,21 @@ const WorldMap = defineComponent<WorldMapProps>((props) => {
       trigger: "item",
       formatter: function (params: any) {
         if (params.seriesType === "lines") {
-          const [fileCount, gbSize, latency, jitter, packetLoss] = params.value;
+          const [latency, jitter, packetLoss] = params.value;
           return `
             <div style="padding: 8px; min-width: 200px;">
               <strong style="color: #333; font-size: 14px;">${params.name}</strong>
               <div style="display: flex; flex-direction: column; gap: 8px; margin-top: 8px;">
               <div style="display: flex; gap: 8px;">
-                <div style="flex: 1; background: #fee2e2; color: #dc2626; border-radius: 6px; padding: 8px 0; text-align: center;">
-                <div style="font-size: 12px; color: #666;">下载总量</div>
-                <div style="font-weight: bold; font-size: 16px;">${gbSize} GB</div>
-                </div>
-                <div style="flex: 1; background: #d1fae5; color: #059669; border-radius: 6px; padding: 8px 0; text-align: center;">
-                <div style="font-size: 12px; color: #666;">网络延迟</div>
-                <div style="font-weight: bold; font-size: 16px;">${latency} ms</div>
-                </div>
-              </div>
-              <div style="display: flex; gap: 8px;">
                 <div style="flex: 1; background: #fef3c7; color: #ea580c; border-radius: 6px; padding: 8px 0; text-align: center;">
                 <div style="font-size: 12px; color: #666;">下载速度</div>
                 <div style="font-weight: bold; font-size: 16px;">${jitter} MB/s</div>
+                </div>
+              </div>
+              <div style="display: flex; gap: 8px;">
+                <div style="flex: 1; background: #d1fae5; color: #059669; border-radius: 6px; padding: 8px 0; text-align: center;">
+                <div style="font-size: 12px; color: #666;">网络延迟</div>
+                <div style="font-weight: bold; font-size: 16px;">${latency} ms</div>
                 </div>
                 <div style="flex: 1; background: #ede9fe; color: #7c3aed; border-radius: 6px; padding: 8px 0; text-align: center;">
                 <div style="font-size: 12px; color: #666;">丢包率</div>
@@ -53,7 +49,7 @@ const WorldMap = defineComponent<WorldMapProps>((props) => {
         } else if (params.seriesType === "scatter") {
           return `${params.name}<br/>坐标: ${params.value}`;
         }
-        return `${params.name}<br/>数据量: ${params.value}`;
+        return `${params.name}`;
       },
       backgroundColor: "rgba(255, 255, 255, 0.95)",
       borderColor: "#e5e7eb",
@@ -123,7 +119,7 @@ const WorldMap = defineComponent<WorldMapProps>((props) => {
               [-77.09, 38.98], // NCBI
               [116.4, 39.9], // 北京
             ],
-            value: [1250, 45.8, 180, 25.1, 0.05], // 文件数, GB大小, 延迟ms, 下载速度MB/s, 丢包率%
+            value: [180, 25.1, 0.05], // 延迟ms, 下载速度MB/s, 丢包率%
           },
           {
             name: "EMBL-EBI→北京",
@@ -131,7 +127,7 @@ const WorldMap = defineComponent<WorldMapProps>((props) => {
               [0.13, 52.21], // EMBL-EBI
               [116.4, 39.9], // 北京
             ],
-            value: [980, 32.4, 165, 28.3, 0.03],
+            value: [165, 28.3, 0.03],
           },
           {
             name: "DDBJ→北京",
@@ -139,7 +135,7 @@ const WorldMap = defineComponent<WorldMapProps>((props) => {
               [138.91, 35.13], // DDBJ
               [116.4, 39.9], // 北京
             ],
-            value: [650, 28.2, 145, 22.7, 0.08],
+            value: [145, 22.7, 0.08],
           },
           // 三个源连到上海下载点
           {
@@ -148,7 +144,7 @@ const WorldMap = defineComponent<WorldMapProps>((props) => {
               [-77.09, 38.98], // NCBI
               [121.47, 31.23], // 上海
             ],
-            value: [1580, 58.3, 175, 32.5, 0.04],
+            value: [175, 32.5, 0.04],
           },
           {
             name: "EMBL-EBI→上海",
@@ -156,7 +152,7 @@ const WorldMap = defineComponent<WorldMapProps>((props) => {
               [0.13, 52.21], // EMBL-EBI
               [121.47, 31.23], // 上海
             ],
-            value: [1120, 41.7, 155, 35.8, 0.02],
+            value: [155, 35.8, 0.02],
           },
           {
             name: "DDBJ→上海",
@@ -164,7 +160,7 @@ const WorldMap = defineComponent<WorldMapProps>((props) => {
               [138.91, 35.13], // DDBJ
               [121.47, 31.23], // 上海
             ],
-            value: [820, 35.9, 140, 30.2, 0.06],
+            value: [140, 30.2, 0.06],
           },
           // 三个源连到广州下载点
           {
@@ -173,7 +169,7 @@ const WorldMap = defineComponent<WorldMapProps>((props) => {
               [-77.09, 38.98], // NCBI
               [113.23, 23.16], // 广州
             ],
-            value: [980, 36.2, 190, 20.8, 0.07],
+            value: [190, 20.8, 0.07],
           },
           {
             name: "EMBL-EBI→广州",
@@ -181,7 +177,7 @@ const WorldMap = defineComponent<WorldMapProps>((props) => {
               [0.13, 52.21], // EMBL-EBI
               [113.23, 23.16], // 广州
             ],
-            value: [750, 28.5, 170, 24.6, 0.05],
+            value: [170, 24.6, 0.05],
           },
           {
             name: "DDBJ→广州",
@@ -189,7 +185,7 @@ const WorldMap = defineComponent<WorldMapProps>((props) => {
               [138.91, 35.13], // DDBJ
               [113.23, 23.16], // 广州
             ],
-            value: [520, 24.1, 150, 19.3, 0.09],
+            value: [150, 19.3, 0.09],
           },
           // 三个源连到深圳下载点
           {
@@ -198,7 +194,7 @@ const WorldMap = defineComponent<WorldMapProps>((props) => {
               [-77.09, 38.98], // NCBI
               [114.07, 22.62], // 深圳
             ],
-            value: [720, 26.8, 195, 18.2, 0.08],
+            value: [195, 18.2, 0.08],
           },
           {
             name: "EMBL-EBI→深圳",
@@ -206,7 +202,7 @@ const WorldMap = defineComponent<WorldMapProps>((props) => {
               [0.13, 52.21], // EMBL-EBI
               [114.07, 22.62], // 深圳
             ],
-            value: [580, 22.3, 175, 21.5, 0.06],
+            value: [175, 21.5, 0.06],
           },
           {
             name: "DDBJ→深圳",
@@ -214,7 +210,7 @@ const WorldMap = defineComponent<WorldMapProps>((props) => {
               [138.91, 35.13], // DDBJ
               [114.07, 22.62], // 深圳
             ],
-            value: [420, 18.7, 155, 17.8, 0.1],
+            value: [155, 17.8, 0.1],
           },
           // 三个源连到成都下载点
           {
@@ -223,7 +219,7 @@ const WorldMap = defineComponent<WorldMapProps>((props) => {
               [-77.09, 38.98], // NCBI
               [104.07, 30.67], // 成都
             ],
-            value: [680, 25.1, 210, 15.4, 0.12],
+            value: [210, 15.4, 0.12],
           },
           {
             name: "EMBL-EBI→成都",
@@ -231,7 +227,7 @@ const WorldMap = defineComponent<WorldMapProps>((props) => {
               [0.13, 52.21], // EMBL-EBI
               [104.07, 30.67], // 成都
             ],
-            value: [520, 19.8, 185, 16.9, 0.09],
+            value: [185, 16.9, 0.09],
           },
           {
             name: "DDBJ→成都",
@@ -239,7 +235,7 @@ const WorldMap = defineComponent<WorldMapProps>((props) => {
               [138.91, 35.13], // DDBJ
               [104.07, 30.67], // 成都
             ],
-            value: [380, 16.4, 165, 14.2, 0.11],
+            value: [165, 14.2, 0.11],
           },
           // 三个源连到杭州下载点
           {
@@ -248,7 +244,7 @@ const WorldMap = defineComponent<WorldMapProps>((props) => {
               [-77.09, 38.98], // NCBI
               [120.15, 30.28], // 杭州
             ],
-            value: [890, 33.5, 172, 26.3, 0.05],
+            value: [172, 26.3, 0.05],
           },
           {
             name: "EMBL-EBI→杭州",
@@ -256,7 +252,7 @@ const WorldMap = defineComponent<WorldMapProps>((props) => {
               [0.13, 52.21], // EMBL-EBI
               [120.15, 30.28], // 杭州
             ],
-            value: [680, 26.1, 158, 29.7, 0.03],
+            value: [158, 29.7, 0.03],
           },
           {
             name: "DDBJ→杭州",
@@ -264,7 +260,7 @@ const WorldMap = defineComponent<WorldMapProps>((props) => {
               [138.91, 35.13], // DDBJ
               [120.15, 30.28], // 杭州
             ],
-            value: [480, 21.3, 142, 27.4, 0.07],
+            value: [142, 27.4, 0.07],
           },
           // 三个源连到武汉下载点
           {
@@ -273,7 +269,7 @@ const WorldMap = defineComponent<WorldMapProps>((props) => {
               [-77.09, 38.98], // NCBI
               [114.31, 30.59], // 武汉
             ],
-            value: [760, 28.4, 185, 23.8, 0.08],
+            value: [185, 23.8, 0.08],
           },
           {
             name: "EMBL-EBI→武汉",
@@ -281,7 +277,7 @@ const WorldMap = defineComponent<WorldMapProps>((props) => {
               [0.13, 52.21], // EMBL-EBI
               [114.31, 30.59], // 武汉
             ],
-            value: [590, 22.7, 168, 25.6, 0.06],
+            value: [168, 25.6, 0.06],
           },
           {
             name: "DDBJ→武汉",
@@ -289,7 +285,7 @@ const WorldMap = defineComponent<WorldMapProps>((props) => {
               [138.91, 35.13], // DDBJ
               [114.31, 30.59], // 武汉
             ],
-            value: [440, 19.2, 148, 21.3, 0.09],
+            value: [148, 21.3, 0.09],
           },
           // 三个源连到西安下载点
           {
@@ -298,7 +294,7 @@ const WorldMap = defineComponent<WorldMapProps>((props) => {
               [-77.09, 38.98], // NCBI
               [108.95, 34.27], // 西安
             ],
-            value: [620, 23.2, 195, 16.7, 0.1],
+            value: [195, 16.7, 0.1],
           },
           {
             name: "EMBL-EBI→西安",
@@ -306,7 +302,7 @@ const WorldMap = defineComponent<WorldMapProps>((props) => {
               [0.13, 52.21], // EMBL-EBI
               [108.95, 34.27], // 西安
             ],
-            value: [480, 18.5, 178, 18.9, 0.08],
+            value: [178, 18.9, 0.08],
           },
           {
             name: "DDBJ→西安",
@@ -314,7 +310,7 @@ const WorldMap = defineComponent<WorldMapProps>((props) => {
               [138.91, 35.13], // DDBJ
               [108.95, 34.27], // 西安
             ],
-            value: [360, 15.8, 158, 15.6, 0.11],
+            value: [158, 15.6, 0.11],
           },
         ],
       },
@@ -412,10 +408,6 @@ const WorldMap = defineComponent<WorldMapProps>((props) => {
                 <span style="font-weight: bold; color: #1d4ed8;">${params.data.ip}</span>
                 </div>
                 <div style="display: flex; justify-content: space-between; font-size: 12px; color: #666;">
-                <span>下载总量</span>
-                <span style="font-weight: bold; color: #16a34a;">${params.data.totalDownload} GB</span>
-                </div>
-                <div style="display: flex; justify-content: space-between; font-size: 12px; color: #666;">
                 <span>坐标</span>
                 <span style="font-weight: bold;">${params.value}</span>
                 </div>
@@ -438,14 +430,14 @@ const WorldMap = defineComponent<WorldMapProps>((props) => {
         },
         data: [
           // 国内八个主要城市下载点
-          { name: "北京下载点", value: [116.4, 39.9], ip: "202.106.0.20", totalDownload: 106.4 },
-          { name: "上海下载点", value: [121.47, 31.23], ip: "202.127.0.25", totalDownload: 135.9 },
-          { name: "广州下载点", value: [113.23, 23.16], ip: "202.116.0.18", totalDownload: 88.8 },
-          { name: "深圳下载点", value: [114.07, 22.62], ip: "202.104.0.22", totalDownload: 67.8 },
-          { name: "成都下载点", value: [104.07, 30.67], ip: "202.115.0.15", totalDownload: 61.3 },
-          { name: "杭州下载点", value: [120.15, 30.28], ip: "202.108.0.28", totalDownload: 80.9 },
-          { name: "武汉下载点", value: [114.31, 30.59], ip: "202.114.0.19", totalDownload: 70.3 },
-          { name: "西安下载点", value: [108.95, 34.27], ip: "202.117.0.16", totalDownload: 57.5 },
+          { name: "北京下载点", value: [116.4, 39.9], ip: "202.106.0.20" },
+          { name: "上海下载点", value: [121.47, 31.23], ip: "202.127.0.25" },
+          { name: "广州下载点", value: [113.23, 23.16], ip: "202.116.0.18" },
+          { name: "深圳下载点", value: [114.07, 22.62], ip: "202.104.0.22" },
+          { name: "成都下载点", value: [104.07, 30.67], ip: "202.115.0.15" },
+          { name: "杭州下载点", value: [120.15, 30.28], ip: "202.108.0.28" },
+          { name: "武汉下载点", value: [114.31, 30.59], ip: "202.114.0.19" },
+          { name: "西安下载点", value: [108.95, 34.27], ip: "202.117.0.16" },
         ],
       },
     ],
