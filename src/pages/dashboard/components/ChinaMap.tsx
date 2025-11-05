@@ -287,7 +287,7 @@ const ChinaMap = defineComponent<ChinaMapProps>((props) => {
   // 中国地图配置（使用计算属性使其响应式）
   const chinaMapOption = computed(() => ({
     title: {
-      text: "国内下载分布",
+      text: "国内网络探测情况",
       left: "center",
       textStyle: {
         color: "#333",

@@ -10,7 +10,7 @@ const WorldMap = defineComponent<WorldMapProps>((props) => {
   // 世界地图配置
   const worldMapOption = {
     title: {
-      text: "国际下载分布",
+      text: "国际网络探测情况",
       left: "center",
       top: "0",
       textStyle: {
