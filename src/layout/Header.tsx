@@ -114,7 +114,11 @@ const Header = defineComponent(() => {
     {
       key: "/setting",
       label: "系统设置",
-      children: [{ key: "/setting/probe", label: "探针列表" }],
+      children: [
+        { key: "/setting/probe", label: "探针列表" },
+        { key: "/setting/detectionSource", label: "检测源" },
+        { key: "/setting/whitelist", label: "监测白名单" },
+      ],
     },
   ];
 

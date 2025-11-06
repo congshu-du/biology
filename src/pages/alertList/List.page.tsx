@@ -67,8 +67,13 @@ const AlertList = defineComponent(() => {
         const apiData = res.data?.data || [];
         const mergedData = [...apiData, ...allAlertTestData];
 
+        // 过滤掉国内下载流量波动（eventType === 5）的告警
+        const filteredData = mergedData.filter((item) => item.eventType !== 5);
+
         // 按时间排序，最新的在前面
-        const sortedData = mergedData.sort((a, b) => new Date(b.startTime).getTime() - new Date(a.startTime).getTime());
+        const sortedData = filteredData.sort(
+          (a, b) => new Date(b.startTime).getTime() - new Date(a.startTime).getTime(),
+        );
 
         return {
           ...res.data,
@@ -279,16 +284,16 @@ const AlertList = defineComponent(() => {
         );
       },
     },
-    {
-      title: "探测点",
-      dataIndex: "InternationalExtra",
-      ellipsis: true,
-      width: 120,
-      customRender: ({ text }) => {
-        if (!text) return "-";
-        return <Tag color={token.blue}>{text.probePoint}</Tag>;
-      },
-    },
+    // {
+    //   title: "探测点",
+    //   dataIndex: "InternationalExtra",
+    //   ellipsis: true,
+    //   width: 120,
+    //   customRender: ({ text }) => {
+    //     if (!text) return "-";
+    //     return <Tag color={token.blue}>{text.probePoint}</Tag>;
+    //   },
+    // },
     // {
     //   title: "边界AS",
     //   dataIndex: "isTransitAS",

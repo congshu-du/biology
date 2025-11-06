@@ -93,7 +93,11 @@ const routes: RouteRecordRaw[] = [
         path: "/setting",
         children: [
           { path: "", redirect: "/setting/probe" },
-          { path: "probe", component: () => import("@/pages/setting/Probe.page") },
+          { path: "probe", component: () => import("@/pages/setting/probe/Index.page") },
+          { path: "probe/setup", component: () => import("@/pages/setting/probe/Setup.page") },
+          { path: "probe/detail", component: () => import("@/pages/setting/probe/Detail.page") },
+          { path: "detectionSource", component: () => import("@/pages/setting/detectionSource/Index.page") },
+          { path: "whitelist", component: () => import("@/pages/setting/White/Index.page") },
         ],
       },
     ],

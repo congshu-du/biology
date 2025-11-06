@@ -3,6 +3,7 @@ import { defineComponent, ref } from "vue";
 import { ColumnProps } from "ant-design-vue/es/table";
 import dayjs from "dayjs";
 import { token } from "@/utils/theme";
+import { useRouter } from "vue-router";
 
 interface ProbeType {
   id: string;
@@ -17,6 +18,7 @@ interface ProbeType {
 
 const ProbePage = defineComponent(() => {
   const loading = ref(false);
+  const router = useRouter();
 
   // 探针数据
   const probeList = ref<ProbeType[]>([
@@ -184,14 +186,12 @@ const ProbePage = defineComponent(() => {
 
   // 查看详情
   const viewDetail = (probe: ProbeType) => {
-    message.info(`查看探针 "${probe.name}" 的详情`);
-    // TODO: 实现详情页面
+    router.push(`/setting/probe/detail?id=${probe.id}`);
   };
 
   // 设置探针
   const settingProbe = (probe: ProbeType) => {
-    message.info(`设置探针 "${probe.name}"`);
-    // TODO: 实现设置功能
+    router.push(`/setting/probe/setup?id=${probe.id}`);
   };
 
   const columns: ColumnProps<ProbeType>[] = [
@@ -251,18 +251,18 @@ const ProbePage = defineComponent(() => {
       customRender: ({ record }) => (
         <Space>
           {record.status === "detecting" ? (
-            <Button type="primary" danger size="small" onClick={() => stopProbe(record)} loading={loading.value}>
+            <Button type="link" danger size="small" onClick={() => stopProbe(record)} loading={loading.value}>
               停止
             </Button>
           ) : (
-            <Button type="primary" size="small" onClick={() => startProbe(record)} loading={loading.value}>
+            <Button type="link" size="small" onClick={() => startProbe(record)} loading={loading.value}>
               启动
             </Button>
           )}
-          <Button size="small" onClick={() => settingProbe(record)}>
+          <Button size="small" type="link" onClick={() => settingProbe(record)}>
             设置
           </Button>
-          <Button size="small" onClick={() => viewDetail(record)}>
+          <Button size="small" type="link" onClick={() => viewDetail(record)}>
             详情
           </Button>
         </Space>
@@ -273,7 +273,7 @@ const ProbePage = defineComponent(() => {
   return () => (
     <div class="flex flex-col h-full">
       <div class="p-4">
-        <div class="flex items-center justify-between mb-4">
+        <div class="flex items-center justify-between">
           <h2 class="text-xl font-semibold">探针列表</h2>
         </div>
       </div>
