@@ -31,24 +31,24 @@ const WhitelistPage = defineComponent(() => {
   const whitelistData = ref<WhitelistType[]>([
     {
       id: "1",
-      name: "内部服务器",
-      ip: "192.168.1.100",
+      name: "生物信息中心",
+      ip: "192.168.1.100/24",
       desc: "公司内部核心服务器",
       createTime: "2024-01-15 09:00:00",
       updateTime: "2024-01-15 09:00:00",
     },
     {
       id: "2",
-      name: "开发环境",
-      ip: "10.0.0.50",
+      name: "网络中心",
+      ip: "10.0.0.50/16",
       desc: "开发测试环境服务器",
       createTime: "2024-01-15 08:00:00",
       updateTime: "2024-01-15 08:00:00",
     },
     {
       id: "3",
-      name: "备份服务器",
-      ip: "172.16.0.20",
+      name: "张家口",
+      ip: "172.16.0.20/20",
       desc: "数据备份专用服务器",
       createTime: "2024-01-15 07:00:00",
       updateTime: "2024-01-15 07:00:00",
@@ -194,7 +194,7 @@ const WhitelistPage = defineComponent(() => {
       ellipsis: true,
     },
     {
-      title: "IP地址",
+      title: "IP前缀",
       dataIndex: "ip",
       width: 180,
       ellipsis: true,
@@ -279,8 +279,11 @@ const WhitelistPage = defineComponent(() => {
           <Form.Item label="名称" name="name">
             <Input v-model:value={formState.name} placeholder="请输入名称" />
           </Form.Item>
-          <Form.Item label="IP地址" name="ip">
-            <Input v-model:value={formState.ip} placeholder="请输入IP地址，如：192.168.1.1" />
+          <Form.Item label="IP前缀" name="ip">
+            <Input.TextArea
+              v-model:value={formState.ip}
+              placeholder="请输入IP前缀，如：192.168.1.1/24，多个前缀用逗号分隔"
+            />
           </Form.Item>
           <Form.Item label="描述" name="desc">
             <Input.TextArea

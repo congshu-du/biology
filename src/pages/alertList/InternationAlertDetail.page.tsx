@@ -9,7 +9,6 @@ import { Descriptions, Skeleton, Divider, Tag } from "ant-design-vue";
 import dayjs from "dayjs";
 import { defineComponent, ref, watchEffect } from "vue";
 import { useRoute, useRouter } from "vue-router";
-import { css } from "@emotion/css";
 import { internationalDownloadAnomalyData } from "./data";
 
 const option = [
@@ -480,15 +479,10 @@ const Detail = defineComponent(() => {
             <DetailDiv class="mb-4 pt-4 pb-4">
               <div class="space-y-3">
                 {[
-                  { name: "切换至其他国际数据源", description: "使用EMBL-EBI、DDBJ等其他国际生物信息数据库" },
                   {
                     name: "使用应急服务系统进行下载",
                     description: (
-                      <a
-                        href="https://www.cncb.ac.cn/b1/"
-                        target="_blank"
-                        style="color:#4db8ff;text-decoration:underline;"
-                      >
+                      <a href="http://bdbe.cn/bak/" target="_blank" style="color:#4db8ff;text-decoration:underline;">
                         应急服务系统
                       </a>
                     ),

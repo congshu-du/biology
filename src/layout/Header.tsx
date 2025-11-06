@@ -53,7 +53,7 @@ const Header = defineComponent(() => {
       children: [
         { key: "/dataPlatform/bgp", label: "路由数据" },
         { key: "/dataPlatform/server", label: "服务数据" },
-        { key: "/dataPlatform/detection", label: "检测数据" },
+        { key: "/dataPlatform/detection", label: "探测数据" },
       ],
     },
     // {

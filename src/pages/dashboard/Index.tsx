@@ -42,7 +42,7 @@ const Dashboard = defineComponent(() => {
           <Card class="h-30 bg-white flex flex-col justify-center items-center shadow-md">
             <Statistic
               title={<div style={{ textAlign: "center" }}>探针总数</div>}
-              value={156}
+              value={8}
               prefix={
                 <span style={{ fontSize: 24, color: "#1890ff" }}>
                   <GlobalOutlined />

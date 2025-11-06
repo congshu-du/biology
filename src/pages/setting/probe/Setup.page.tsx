@@ -70,13 +70,6 @@ const PROBE_TOOLS = [
     icon: "https://cdn-icons-png.flaticon.com/512/2920/2920349.png",
   },
   {
-    label: "Nmap",
-    value: "nmap",
-    description:
-      "专业的网络扫描和安全审计工具，可快速发现网络中的主机、开放端口、运行服务版本、操作系统类型、防火墙规则。支持强大的NSE脚本引擎进行漏洞扫描、暴力破解、服务枚举等深度安全检测，是渗透测试必备工具。",
-    icon: "https://nmap.org/images/sitelogo.png",
-  },
-  {
     label: "Dig",
     value: "dig",
     description:
@@ -89,13 +82,6 @@ const PROBE_TOOLS = [
     description:
       "交互式DNS查询工具，可查询域名对应的IP地址、反向DNS解析、指定DNS服务器查询、查看MX邮件交换记录。操作简单直观，支持交互模式和非交互模式，适合快速DNS检查、域名解析验证、邮件服务器配置检查。",
     icon: "https://cdn-icons-png.flaticon.com/512/1161/1161388.png",
-  },
-  {
-    label: "Telnet",
-    value: "telnet",
-    description:
-      "远程登录协议工具，除了传统的远程登录功能外，常用于测试TCP端口连通性、调试网络服务(HTTP、SMTP、POP3等)、检查服务器响应内容。可手动发送命令与服务器交互，是测试应用层协议和端口可访问性的实用工具。",
-    icon: "https://cdn-icons-png.flaticon.com/512/2920/2920324.png",
   },
 ];
 

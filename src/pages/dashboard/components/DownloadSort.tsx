@@ -13,38 +13,38 @@ interface DownloadPoint {
 
 // 从 WorldMap 的 download series 中提取的国内下载点（如果需要可改为从接口/prop 引入）
 const defaultDownloadPoints: DownloadPoint[] = [
-  { name: "北京下载点", ip: "202.106.0.20", latency: 180, speed: 25.1, packetLoss: 0.05 },
-  { name: "上海下载点", ip: "202.127.0.25", latency: 175, speed: 32.5, packetLoss: 0.04 },
-  { name: "广州下载点", ip: "202.116.0.18", latency: 190, speed: 20.8, packetLoss: 0.06 },
-  { name: "深圳下载点", ip: "202.104.0.22", latency: 195, speed: 18.2, packetLoss: 0.08 },
-  { name: "成都下载点", ip: "202.115.0.15", latency: 210, speed: 15.4, packetLoss: 0.12 },
-  { name: "杭州下载点", ip: "202.108.0.28", latency: 172, speed: 26.3, packetLoss: 0.05 },
-  { name: "武汉下载点", ip: "202.114.0.19", latency: 185, speed: 23.8, packetLoss: 0.08 },
-  { name: "西安下载点", ip: "202.117.0.16", latency: 195, speed: 16.7, packetLoss: 0.1 },
+  { name: "北京探测点", ip: "202.106.0.20", latency: 180, speed: 25.1, packetLoss: 0.05 },
+  { name: "上海探测点", ip: "202.127.0.25", latency: 175, speed: 32.5, packetLoss: 0.04 },
+  { name: "广州探测点", ip: "202.116.0.18", latency: 190, speed: 20.8, packetLoss: 0.06 },
+  { name: "深圳探测点", ip: "202.104.0.22", latency: 195, speed: 18.2, packetLoss: 0.08 },
+  { name: "成都探测点", ip: "202.115.0.15", latency: 210, speed: 15.4, packetLoss: 0.12 },
+  { name: "杭州探测点", ip: "202.108.0.28", latency: 172, speed: 26.3, packetLoss: 0.05 },
+  { name: "武汉探测点", ip: "202.114.0.19", latency: 185, speed: 23.8, packetLoss: 0.08 },
+  { name: "西安探测点", ip: "202.117.0.16", latency: 195, speed: 16.7, packetLoss: 0.1 },
 ];
 
 // EMBL-EBI 下载源数据（欧洲生物信息学研究所）
 const embldownloadPoints: DownloadPoint[] = [
-  { name: "北京下载点", ip: "202.106.0.20", latency: 220, speed: 18.7, packetLoss: 0.08 },
-  { name: "上海下载点", ip: "202.127.0.25", latency: 195, speed: 28.9, packetLoss: 0.06 },
-  { name: "广州下载点", ip: "202.116.0.18", latency: 235, speed: 17.2, packetLoss: 0.09 },
-  { name: "深圳下载点", ip: "202.104.0.22", latency: 240, speed: 16.5, packetLoss: 0.11 },
-  { name: "成都下载点", ip: "202.115.0.15", latency: 260, speed: 13.2, packetLoss: 0.15 },
-  { name: "杭州下载点", ip: "202.108.0.28", latency: 190, speed: 22.8, packetLoss: 0.08 },
-  { name: "武汉下载点", ip: "202.114.0.19", latency: 215, speed: 19.5, packetLoss: 0.1 },
-  { name: "西安下载点", ip: "202.117.0.16", latency: 230, speed: 14.1, packetLoss: 0.13 },
+  { name: "北京探测点", ip: "202.106.0.20", latency: 220, speed: 18.7, packetLoss: 0.08 },
+  { name: "上海探测点", ip: "202.127.0.25", latency: 195, speed: 28.9, packetLoss: 0.06 },
+  { name: "广州探测点", ip: "202.116.0.18", latency: 235, speed: 17.2, packetLoss: 0.09 },
+  { name: "深圳探测点", ip: "202.104.0.22", latency: 240, speed: 16.5, packetLoss: 0.11 },
+  { name: "成都探测点", ip: "202.115.0.15", latency: 260, speed: 13.2, packetLoss: 0.15 },
+  { name: "杭州探测点", ip: "202.108.0.28", latency: 190, speed: 22.8, packetLoss: 0.08 },
+  { name: "武汉探测点", ip: "202.114.0.19", latency: 215, speed: 19.5, packetLoss: 0.1 },
+  { name: "西安探测点", ip: "202.117.0.16", latency: 230, speed: 14.1, packetLoss: 0.13 },
 ];
 
 // DDBJ 下载源数据（日本生物信息学中心）
 const ddbjDownloadPoints: DownloadPoint[] = [
-  { name: "北京下载点", ip: "202.106.0.20", latency: 165, speed: 30.2, packetLoss: 0.04 },
-  { name: "上海下载点", ip: "202.127.0.25", latency: 150, speed: 35.8, packetLoss: 0.03 },
-  { name: "广州下载点", ip: "202.116.0.18", latency: 175, speed: 24.7, packetLoss: 0.05 },
-  { name: "深圳下载点", ip: "202.104.0.22", latency: 180, speed: 22.1, packetLoss: 0.06 },
-  { name: "成都下载点", ip: "202.115.0.15", latency: 195, speed: 18.9, packetLoss: 0.09 },
-  { name: "杭州下载点", ip: "202.108.0.28", latency: 145, speed: 31.5, packetLoss: 0.04 },
-  { name: "武汉下载点", ip: "202.114.0.19", latency: 160, speed: 27.6, packetLoss: 0.04 },
-  { name: "西安下载点", ip: "202.117.0.16", latency: 170, speed: 20.3, packetLoss: 0.08 },
+  { name: "北京探测点", ip: "202.106.0.20", latency: 165, speed: 30.2, packetLoss: 0.04 },
+  { name: "上海探测点", ip: "202.127.0.25", latency: 150, speed: 35.8, packetLoss: 0.03 },
+  { name: "广州探测点", ip: "202.116.0.18", latency: 175, speed: 24.7, packetLoss: 0.05 },
+  { name: "深圳探测点", ip: "202.104.0.22", latency: 180, speed: 22.1, packetLoss: 0.06 },
+  { name: "成都探测点", ip: "202.115.0.15", latency: 195, speed: 18.9, packetLoss: 0.09 },
+  { name: "杭州探测点", ip: "202.108.0.28", latency: 145, speed: 31.5, packetLoss: 0.04 },
+  { name: "武汉探测点", ip: "202.114.0.19", latency: 160, speed: 27.6, packetLoss: 0.04 },
+  { name: "西安探测点", ip: "202.117.0.16", latency: 170, speed: 20.3, packetLoss: 0.08 },
 ];
 
 const DownloadSort = defineComponent<{ time?: string }>(
