@@ -22,7 +22,6 @@ const routes: RouteRecordRaw[] = [
             path: "international-detail",
             component: () => import("@/pages/alertList/InternationAlertDetail.page.tsx"),
           },
-          { path: "domestic-detail", component: () => import("@/pages/alertList/DomesticAlertDetail.page.tsx") },
           { path: "playback", component: () => import("@/pages/alertList/Playback.page.tsx") },
         ],
       },
