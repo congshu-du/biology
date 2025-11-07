@@ -41,17 +41,17 @@ try:
     )
 
     # Deploy nginx config
-    subprocess.run(
-        ["scp", f"deploy/{conf_name}", f"{username}@{server}:{remote_path}"], check=True
-    )
-    subprocess.run(
-        [
-            "ssh",
-            f"{username}@{server}",
-            f"rm -rf {conf_path} && mv {remote_path}/{conf_name} {conf_path} && chmod 777 {conf_path}",
-        ],
-        check=True,
-    )
+    # subprocess.run(
+    #     ["scp", f"deploy/{conf_name}", f"{username}@{server}:{remote_path}"], check=True
+    # )
+    # subprocess.run(
+    #     [
+    #         "ssh",
+    #         f"{username}@{server}",
+    #         f"rm -rf {conf_path} && mv {remote_path}/{conf_name} {conf_path} && chmod 777 {conf_path}",
+    #     ],
+    #     check=True,
+    # )
 
     print("Build and upload completed successfully.")
 except subprocess.CalledProcessError as e:

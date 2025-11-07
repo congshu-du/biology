@@ -23,7 +23,7 @@ const Playback = defineComponent(() => {
       <iframe
         key={keyRef.value}
         class="h-full w-full border-none"
-        src={`${location.protocol}//${location.hostname}:8099/abnormal?eventId=${route.query.eventId}`}
+        src={`${location.protocol}//${location.hostname}:8089?eventId=${route.query.eventId}`}
       ></iframe>
     </div>
   );

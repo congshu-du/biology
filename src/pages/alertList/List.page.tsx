@@ -27,7 +27,7 @@ const attentionList = [
 const AlertList = defineComponent(() => {
   const targetNode = ref<any>(null);
   const initHeight = ref<number>(0);
-  const time = ref("now-30d~now");
+  const time = ref("now-90d~now-60d");
   const type = ref();
   const search = reactive({
     attackerAsn: "",
