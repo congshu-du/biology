@@ -19,7 +19,7 @@ import { typeOptions } from "@/services/alert/contant";
 
 const attentionList = [
   {
-    label: "AS7497",
+    label: "重保用户",
     value: "7497",
   },
 ];
@@ -408,7 +408,7 @@ const AlertList = defineComponent(() => {
               class="w-36"
               placeholder="被劫持者ASN"
               v-model={[search.victimAsn, "value"]}
-              
+
               allowClear
             />
 

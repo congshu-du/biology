@@ -5,8 +5,8 @@ export const internationalDownloadAnomalyData: AlertType[] = [
   {
     eventId: "INT_DOWNLOAD_001",
     eventType: 4,
-    attackerAsn: 174,
-    victimAsn: 7497,
+    attackerAsn: 0,
+    victimAsn: 0,
     leakByAsn: 0,
     leakToAsnList: [],
     conspiratorList: [],
@@ -66,8 +66,8 @@ export const internationalDownloadAnomalyData: AlertType[] = [
   {
     eventId: "INT_DOWNLOAD_002",
     eventType: 4,
-    attackerAsn: 6453,
-    victimAsn: 7497,
+    attackerAsn: 0,
+    victimAsn: 0,
     leakByAsn: 0,
     leakToAsnList: [],
     conspiratorList: [],
@@ -127,8 +127,8 @@ export const internationalDownloadAnomalyData: AlertType[] = [
   {
     eventId: "INT_DOWNLOAD_003",
     eventType: 4,
-    attackerAsn: 1299,
-    victimAsn: 7497,
+    attackerAsn: 0,
+    victimAsn: 0,
     leakByAsn: 0,
     leakToAsnList: [],
     conspiratorList: [],
