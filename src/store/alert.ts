@@ -1,5 +1,4 @@
 import { AlertType } from "@/services/alert/interface";
-import { M } from "node_modules/vite/dist/node/types.d-aGj9QkWt";
 import { defineStore } from "pinia";
 
 export const internationalDownloadAnomalyData: AlertType[] = [
