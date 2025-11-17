@@ -12,10 +12,11 @@ import Refresh from "./components/Refresh";
 import { getAlertList } from "@/services/alert";
 // import MoreSearch from "./components/MoreSearch";
 import { AlertType } from "@/services/alert/interface";
-import { allAlertTestData } from "./data";
+// import { allAlertTestData } from "./data";
 import { getDuration, getIPprefixUrl } from "@/utils/config";
 import { DeInput } from "@/components/ant";
 import { typeOptions } from "@/services/alert/contant";
+import { useAlertList } from "@/store";
 
 const attentionList = [
   {
@@ -27,6 +28,7 @@ const attentionList = [
 const AlertList = defineComponent(() => {
   const targetNode = ref<any>(null);
   const initHeight = ref<number>(0);
+  const otherList = useAlertList();
   const time = ref("now-90d~now-60d");
   const type = ref();
   const search = reactive({
@@ -65,7 +67,7 @@ const AlertList = defineComponent(() => {
       }).then((res) => {
         // 合并API数据和测试数据
         const apiData = res.data?.data || [];
-        const mergedData = [...apiData, ...allAlertTestData];
+        const mergedData = [...apiData];
 
         // 过滤掉国内下载流量波动（eventType === 5）的告警
         const filteredData = mergedData.filter((item) => item.eventType !== 5);
@@ -91,7 +93,7 @@ const AlertList = defineComponent(() => {
     const allData = data?.value?.data || [];
     const startIndex = (searchValue.current - 1) * searchValue.pageSize;
     const endIndex = startIndex + searchValue.pageSize;
-    return allData.slice(startIndex, endIndex);
+    return allData.slice(startIndex, endIndex).concat(otherList.list);
   });
 
   const pagination = computed(() => ({
@@ -173,6 +175,34 @@ const AlertList = defineComponent(() => {
     //   },
     // },
 
+    {
+      title: "描述",
+      dataIndex: "desc",
+      ellipsis: true,
+      width: 380,
+      customRender: ({ text, record }) => {
+        // 如果desc字段有值,直接显示
+        if (text) return text;
+
+        // 否则拼接: AS1劫持了AS2的什么前缀
+        const attackerAsn = record.attackerAsn;
+        const victimAsn = record.victimAsn;
+        const prefix = record.prefix;
+
+        if (!attackerAsn && !victimAsn && !prefix) return "-";
+
+        return (
+          <span>
+            {attackerAsn && <span>AS{attackerAsn}</span>}
+            {attackerAsn && victimAsn && <span>劫持了</span>}
+            {victimAsn && <span>AS{victimAsn}</span>}
+            {prefix && victimAsn && <span>的</span>}
+            {prefix && <span>{prefix}</span>}
+            前缀
+          </span>
+        );
+      },
+    },
     {
       title: "劫持者AS号",
       dataIndex: "attackerAsn",

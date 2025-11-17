@@ -1,15 +1,16 @@
 import { getAlertDetail } from "@/services/alert";
 import { typeOptions } from "@/services/alert/contant";
 import { AlertType, InternationalExtra } from "@/services/alert/interface";
+import { useAlertList } from "@/store";
 import { getDuration } from "@/utils/config";
 import { token } from "@/utils/theme";
 import { ArrowLeftOutlined } from "@ant-design/icons-vue";
 import styled, { tw } from "@vue-styled-components/core";
 import { Descriptions, Skeleton, Divider, Tag } from "ant-design-vue";
 import dayjs from "dayjs";
+import { use } from "echarts";
 import { defineComponent, ref, watchEffect } from "vue";
 import { useRoute, useRouter } from "vue-router";
-import { internationalDownloadAnomalyData } from "./data";
 
 const option = [
   { label: "NCBI（美国国家生物技术信息中心）", value: "NCBI" },
@@ -22,12 +23,13 @@ const Detail = defineComponent(() => {
   const router = useRouter();
   const loading = ref(false);
   const info = ref<AlertType>();
+  const alertList = useAlertList();
 
   watchEffect(async () => {
     try {
       loading.value = true;
 
-      info.value = internationalDownloadAnomalyData.find((item) => item.eventId === route.query.eventId);
+      info.value = alertList.list.find((item) => item.eventId === route.query.eventId);
       loading.value = false;
     } catch (error) {
       loading.value = false;
@@ -167,7 +169,7 @@ const Detail = defineComponent(() => {
         title: `同批次所有探测点到 NCBI 的探测结果`,
         data: [
           {
-            probePoint: "生物信息中心1",
+            probePoint: "国家生物信息中心",
             probeIp: "202.108.22.5",
             tool: "curl",
             status: "failed",
@@ -185,7 +187,7 @@ const Detail = defineComponent(() => {
             errorMessage: "Gateway timeout to NCBI server",
           },
           {
-            probePoint: "生物信息中心2",
+            probePoint: "武汉病毒所",
             probeIp: "183.62.1.5",
             tool: "curl",
             status: "success",
@@ -201,7 +203,7 @@ const Detail = defineComponent(() => {
             throughput: 6.21,
           },
           {
-            probePoint: "网络中心1",
+            probePoint: "微生物所",
             probeIp: "202.104.15.5",
             tool: "curl",
             status: "success",
@@ -215,22 +217,6 @@ const Detail = defineComponent(() => {
             jitter: 2.0,
             bandwidth: 69.5,
             throughput: 5.92,
-          },
-          {
-            probePoint: "网络中心2",
-            probeIp: "211.151.1.5",
-            tool: "curl",
-            status: "success",
-            responseTime: 182,
-            connectTime: 91,
-            dnsResolveTime: 24,
-            sslHandshakeTime: 67,
-            downloadSpeed: 53.1,
-            uploadSpeed: 15.6,
-            packetLoss: 0.0,
-            jitter: 1.5,
-            bandwidth: 76.8,
-            throughput: 6.65,
           },
         ],
       },
