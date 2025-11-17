@@ -278,7 +278,7 @@ const Detail = defineComponent(() => {
         </div>
         <DetailDiv
           class="pt-0 min-h-[400px] relative"
-          style={{ height: (sankeyData.value?.data?.length ?? 0) * 30 + "px" }}
+          style={{ height: (sankeyData.value?.data?.length ?? 0) * 16 + "px" }}
         >
           <div class="absolute top-1 right-2 z-10">
             <Tooltip title="下载">
