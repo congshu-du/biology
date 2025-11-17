@@ -16,7 +16,7 @@ export default defineConfig({
         rewrite: (path) => path.replace(/^\/cloudflare/, ""),
       },
       "/api": {
-        target: "http://172.10.20.99:19201", // 目标 API 地址
+        target: "http://192.168.200.81:9201", // 目标 API 地址
         changeOrigin: true, // 是否改变源
         rewrite: (path) => path.replace(/^\/api/, ""), // 重写路径
       },

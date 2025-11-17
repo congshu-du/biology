@@ -18,7 +18,7 @@ const errorStatusObj: Record<number, string> = {
 
 const axiosInstance: AxiosInstance = axios.create({
   timeout: 60000,
-  baseURL: "http://172.10.20.99",
+  // baseURL: "http://172.10.20.99",
   // baseURL: process?.env?.NODE_ENV !== "development" || hideHeader ? BASE_URL : "",
   // paramsSerializer: function (params) {
   //   return qs.stringify(params, { arrayFormat: "repeat" });
