@@ -38,8 +38,8 @@ const Twin = defineComponent(() => {
       <iframe
         ref={iframeRef}
         class="h-full w-full border-none"
-        // src={`http://192.168.200.80:8080?topo=emulator`}
-        src={`http://localhost:8080?topo=emulator`}
+        src={`http://192.168.200.80:8080?topo=emulator`}
+        // src={`http://localhost:8080?topo=emulator`}
       ></iframe>
     </div>
   );

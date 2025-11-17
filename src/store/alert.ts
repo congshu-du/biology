@@ -146,6 +146,7 @@ const newAlert: AlertType = {
   endTime: "2024-01-17T11:20:00Z",
   eventStartTime: "2024-01-17T09:15:00Z",
   eventEndTime: "2024-01-17T11:20:00Z",
+  desc: "国家生物信息中心科研用户访问NCBI受阻",
   outageAs: {
     asn: 1299,
     asnName: "TELIANET",
@@ -186,8 +187,8 @@ const newAlert: AlertType = {
     totalToolCount: 3,
     bestResponseTime: 145,
     overallStatus: "failed",
-    errorMessage: "Service temporarily unavailable",
-    errorCode: 503,
+    errorMessage: "HTTP 403 Forbidden - Access denied",
+    errorCode: 403,
   },
 };
 
