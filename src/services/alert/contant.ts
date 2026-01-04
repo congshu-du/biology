@@ -22,5 +22,7 @@ export const typeOptions = [
   { label: "前缀劫持", value: 1 },
   { label: "路由泄露", value: 2 },
   { label: "路由中断", value: 3 },
-  { label: "国际下载IP封禁", value: 4 },
+  { label: "下载失败告警", value: 4 },
+  { label: "下载超时告警", value: 5 },
+  { label: "下载IP封禁", value: 6 },
 ];

@@ -48,6 +48,27 @@ interface AsInfoType {
   rank: number;
 }
 
+// 单条探测结果（用于批次数据）
+export interface ProbeResult {
+  probePoint?: string; // 探测点名称（所有探测点到同一数据源时使用）
+  probeIp?: string; // 探测点IP
+  dataSource?: string; // 数据源（同一探测点到所有数据源时使用）
+  tool: string; // 探测工具
+  status: string; // 探测状态 success/failed/timeout
+  responseTime: number; // 响应时间(ms)
+  connectTime: number; // 连接时间(ms)
+  dnsResolveTime: number; // DNS解析时间(ms)
+  sslHandshakeTime: number; // SSL握手时间(ms)
+  downloadSpeed: number; // 下载速度(Mbps)
+  uploadSpeed: number; // 上传速度(Mbps)
+  packetLoss: number; // 丢包率(%)
+  jitter: number; // 网络抖动(ms)
+  bandwidth: number; // 带宽利用率(%)
+  throughput: number; // 吞吐量(MB/s)
+  errorCode?: number; // 错误代码
+  errorMessage?: string; // 错误信息
+}
+
 // 国际下载异常探测信息接口
 export interface InternationalExtra {
   probePoint: string; // 探测点名称
@@ -80,6 +101,9 @@ export interface InternationalExtra {
   overallStatus: string; // 综合状态
   errorMessage?: string; // 错误信息
   errorCode?: number; // 错误代码
+  // 同批次探测数据
+  sameProbeToAllSources?: ProbeResult[]; // 同一探测点到所有数据源的探测结果
+  allProbesToSameSource?: ProbeResult[]; // 所有探测点到同一数据源的探测结果
 }
 
 // 国内下载服务状态监控信息接口 (基于nginx日志分析)

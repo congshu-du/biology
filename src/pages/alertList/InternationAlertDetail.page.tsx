@@ -1,4 +1,3 @@
-import { getAlertDetail } from "@/services/alert";
 import { typeOptions } from "@/services/alert/contant";
 import { AlertType, InternationalExtra } from "@/services/alert/interface";
 import { useAlertList } from "@/store";
@@ -8,7 +7,6 @@ import { ArrowLeftOutlined } from "@ant-design/icons-vue";
 import styled, { tw } from "@vue-styled-components/core";
 import { Descriptions, Skeleton, Divider, Tag } from "ant-design-vue";
 import dayjs from "dayjs";
-import { use } from "echarts";
 import { defineComponent, ref, watchEffect } from "vue";
 import { useRoute, useRouter } from "vue-router";
 
@@ -102,123 +100,18 @@ const Detail = defineComponent(() => {
     return `${baseReason}。${toolReason}`;
   };
 
-  // 模拟获取同批探测数据
+  // 获取同批探测数据（从数据中读取）
   const getBatchProbeData = (currentProbe: InternationalExtra) => {
     const batchData = [
-      // 同一探测点到其他数据源的探测结果
+      // 同一探测点到所有数据源的探测结果（判断是否是该IP的问题）
       {
         title: `同批次 ${currentProbe.probePoint} 到所有数据源探测结果`,
-        data: [
-          {
-            tool: "curl",
-            dataSource: "NCBI",
-            status: currentProbe.dataSource === "NCBI" ? "failed" : "success",
-            responseTime: currentProbe.dataSource === "NCBI" ? currentProbe.responseTime : 189,
-            connectTime: currentProbe.dataSource === "NCBI" ? currentProbe.connectTime : 95,
-            dnsResolveTime: currentProbe.dataSource === "NCBI" ? currentProbe.dnsResolveTime : 28,
-            sslHandshakeTime: currentProbe.dataSource === "NCBI" ? currentProbe.sslHandshakeTime : 67,
-            downloadSpeed: currentProbe.dataSource === "NCBI" ? currentProbe.downloadSpeed || 0 : 48.7,
-            uploadSpeed: currentProbe.dataSource === "NCBI" ? currentProbe.uploadSpeed || 0 : 14.1,
-            packetLoss: currentProbe.dataSource === "NCBI" ? currentProbe.packetLoss || 0 : 0.0,
-            jitter: currentProbe.dataSource === "NCBI" ? currentProbe.jitter || 0 : 1.8,
-            bandwidth: currentProbe.dataSource === "NCBI" ? currentProbe.bandwidth || 0 : 72.3,
-            throughput: currentProbe.dataSource === "NCBI" ? currentProbe.throughput || 0 : 6.02,
-            errorCode: currentProbe.dataSource === "NCBI" ? currentProbe.errorCode : undefined,
-            errorMessage: currentProbe.dataSource === "NCBI" ? currentProbe.errorMessage : undefined,
-          },
-          {
-            tool: "curl",
-            dataSource: "EMBL-EBI",
-            status: currentProbe.dataSource === "EMBL-EBI" ? "failed" : "success",
-            responseTime: currentProbe.dataSource === "EMBL-EBI" ? currentProbe.responseTime : 125,
-            connectTime: currentProbe.dataSource === "EMBL-EBI" ? currentProbe.connectTime : 65,
-            dnsResolveTime: currentProbe.dataSource === "EMBL-EBI" ? currentProbe.dnsResolveTime : 18,
-            sslHandshakeTime: currentProbe.dataSource === "EMBL-EBI" ? currentProbe.sslHandshakeTime : 42,
-            downloadSpeed: currentProbe.dataSource === "EMBL-EBI" ? currentProbe.downloadSpeed || 0 : 58.3,
-            uploadSpeed: currentProbe.dataSource === "EMBL-EBI" ? currentProbe.uploadSpeed || 0 : 16.7,
-            packetLoss: currentProbe.dataSource === "EMBL-EBI" ? currentProbe.packetLoss || 0 : 0.0,
-            jitter: currentProbe.dataSource === "EMBL-EBI" ? currentProbe.jitter || 0 : 1.3,
-            bandwidth: currentProbe.dataSource === "EMBL-EBI" ? currentProbe.bandwidth || 0 : 81.2,
-            throughput: currentProbe.dataSource === "EMBL-EBI" ? currentProbe.throughput || 0 : 7.45,
-            errorCode: currentProbe.dataSource === "EMBL-EBI" ? currentProbe.errorCode : undefined,
-            errorMessage: currentProbe.dataSource === "EMBL-EBI" ? currentProbe.errorMessage : undefined,
-          },
-          {
-            tool: "curl",
-            dataSource: "DDBJ",
-            status: currentProbe.dataSource === "DDBJ" ? "failed" : "success",
-            responseTime: currentProbe.dataSource === "DDBJ" ? currentProbe.responseTime : 145,
-            connectTime: currentProbe.dataSource === "DDBJ" ? currentProbe.connectTime : 75,
-            dnsResolveTime: currentProbe.dataSource === "DDBJ" ? currentProbe.dnsResolveTime : 22,
-            sslHandshakeTime: currentProbe.dataSource === "DDBJ" ? currentProbe.sslHandshakeTime : 48,
-            downloadSpeed: currentProbe.dataSource === "DDBJ" ? currentProbe.downloadSpeed || 0 : 55.6,
-            uploadSpeed: currentProbe.dataSource === "DDBJ" ? currentProbe.uploadSpeed || 0 : 16.2,
-            packetLoss: currentProbe.dataSource === "DDBJ" ? currentProbe.packetLoss || 0 : 0.0,
-            jitter: currentProbe.dataSource === "DDBJ" ? currentProbe.jitter || 0 : 1.2,
-            bandwidth: currentProbe.dataSource === "DDBJ" ? currentProbe.bandwidth || 0 : 79.5,
-            throughput: currentProbe.dataSource === "DDBJ" ? currentProbe.throughput || 0 : 6.98,
-            errorCode: currentProbe.dataSource === "DDBJ" ? currentProbe.errorCode : undefined,
-            errorMessage: currentProbe.dataSource === "DDBJ" ? currentProbe.errorMessage : undefined,
-          },
-        ],
+        data: currentProbe.sameProbeToAllSources || [],
       },
-      // 其他探测点到同一数据源的探测结果
-
-      // 其他探测点到NCBI的探测结果（对比数据）
+      // 所有探测点到同一数据源的探测结果（判断是否是该数据源的问题）
       {
-        title: `同批次所有探测点到 NCBI 的探测结果`,
-        data: [
-          {
-            probePoint: "国家生物信息中心",
-            probeIp: "202.108.22.5",
-            tool: "curl",
-            status: "failed",
-            responseTime: 7800,
-            connectTime: 4800,
-            dnsResolveTime: 820,
-            sslHandshakeTime: 2180,
-            downloadSpeed: 0,
-            uploadSpeed: 0,
-            packetLoss: 12.5,
-            jitter: 7.3,
-            bandwidth: 15.8,
-            throughput: 0,
-            errorCode: 504,
-            errorMessage: "Gateway timeout to NCBI server",
-          },
-          {
-            probePoint: "武汉病毒所",
-            probeIp: "183.62.1.5",
-            tool: "curl",
-            status: "success",
-            responseTime: 195,
-            connectTime: 98,
-            dnsResolveTime: 26,
-            sslHandshakeTime: 71,
-            downloadSpeed: 49.5,
-            uploadSpeed: 14.3,
-            packetLoss: 0.0,
-            jitter: 1.7,
-            bandwidth: 71.8,
-            throughput: 6.21,
-          },
-          {
-            probePoint: "微生物所",
-            probeIp: "202.104.15.5",
-            tool: "curl",
-            status: "success",
-            responseTime: 208,
-            connectTime: 102,
-            dnsResolveTime: 31,
-            sslHandshakeTime: 75,
-            downloadSpeed: 47.2,
-            uploadSpeed: 13.8,
-            packetLoss: 0.0,
-            jitter: 2.0,
-            bandwidth: 69.5,
-            throughput: 5.92,
-          },
-        ],
+        title: `同批次所有探测点到 ${currentProbe.dataSource} 的探测结果`,
+        data: currentProbe.allProbesToSameSource || [],
       },
     ];
     return batchData;
@@ -249,12 +142,12 @@ const Detail = defineComponent(() => {
             <Descriptions.Item label="告警ID">{info.value?.eventId}</Descriptions.Item>
             {info.value?.InternationalExtra && (
               <>
-                <Descriptions.Item label="封禁IP" span={2}>
+                <Descriptions.Item label="异常IP" span={2}>
                   <div class="flex items-center space-x-3">
                     <span class="text-lg font-mono font-bold text-red-600">
                       {info.value.InternationalExtra.probeIp}
                     </span>
-                    <Tag color={token.red}>封禁</Tag>
+                    {getStatusTag(info.value.InternationalExtra.status)}
                     {info.value.InternationalExtra.errorCode && (
                       <Tag color={token.red}>错误码: {info.value.InternationalExtra.errorCode}</Tag>
                     )}
@@ -271,25 +164,13 @@ const Detail = defineComponent(() => {
                 </Descriptions.Item>
                 <Descriptions.Item label="目标数据源">{info.value.InternationalExtra.dataSource}</Descriptions.Item>
                 <Descriptions.Item label="目标URL" span={1}>
-                  <span class="text-xs break-all">{info.value.InternationalExtra.dataSourceUrl}</span>
+                  <span class=" break-all">{info.value.InternationalExtra.dataSourceUrl}</span>
                 </Descriptions.Item>
               </>
             )}
             <Descriptions.Item label="告警时间">
               {dayjs(info.value?.startTime).format("YYYY-MM-DD HH:mm:ss")}
             </Descriptions.Item>
-            <Descriptions.Item label="中断ASN">
-              {info.value?.outageAs ? (
-                <a onClick={() => router.push(`/as/base?as=${info.value?.outageAsn}`)}>AS{info.value?.outageAsn}</a>
-              ) : (
-                "-"
-              )}
-            </Descriptions.Item>
-            {info.value?.prefix && (
-              <Descriptions.Item label="受影响前缀" span={2}>
-                {info.value?.prefix}
-              </Descriptions.Item>
-            )}
           </Descriptions>
         </DetailDiv>
 

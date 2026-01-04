@@ -29,7 +29,7 @@ const AlertList = defineComponent(() => {
   const targetNode = ref<any>(null);
   const initHeight = ref<number>(0);
   const otherList = useAlertList();
-  const time = ref("now-90d~now-60d");
+  const time = ref("now-30d~now");
   const type = ref();
   const search = reactive({
     attackerAsn: "",
@@ -314,6 +314,27 @@ const AlertList = defineComponent(() => {
         );
       },
     },
+
+    {
+      title: "探测点",
+      dataIndex: "InternationalExtra",
+      ellipsis: true,
+      width: 120,
+      customRender: ({ text }) => {
+        if (!text) return "-";
+        return <Tag>{text.probePoint}</Tag>;
+      },
+    },
+    {
+      title: "目标数据源",
+      dataIndex: "InternationalExtra",
+      ellipsis: true,
+      width: 120,
+      customRender: ({ text }) => {
+        if (!text) return "-";
+        return <Tag>{text.dataSource}</Tag>;
+      },
+    },
     // {
     //   title: "探测点",
     //   dataIndex: "InternationalExtra",
@@ -370,7 +391,7 @@ const AlertList = defineComponent(() => {
         return (
           <Space>
             <a onClick={() => onDetail(record)}>详情</a>
-            {record.eventType !== 4 && record.eventType !== 5 && (
+            {[1, 2, 3].includes(record.eventType) && (
               <a
                 onClick={() => {
                   router.push("/alert/playback?eventId=" + record.eventId);
@@ -387,12 +408,9 @@ const AlertList = defineComponent(() => {
   ];
 
   const onDetail = (info: any) => {
-    if (info.eventType === 4) {
+    if ([4, 5, 6].includes(info.eventType)) {
       // type=4 国际探测告警跳转到专门的详情页
       router.push("/alert/international-detail?eventId=" + info.eventId);
-    } else if (info.eventType === 5) {
-      // type=5 国内探测告警跳转到专门的详情页
-      router.push("/alert/domestic-detail?eventId=" + info.eventId);
     } else {
       // 其他类型告警跳转到通用详情页
       router.push("/alert/detail?eventId=" + info.eventId);
